@@ -1,5 +1,5 @@
 # Portfolio
-Hi This is Portfolio Show Case of All My Projects
+Hi 👋This is my Portfolio Show Case of All My Projects
 # 💻 Software Development Engineer Portfolio
 
 Welcome to my GitHub portfolio! I'm a passionate **Software Development Engineer (SDE)** with experience in designing, developing, and deploying scalable software solutions. This repository highlights my key skills, projects, and contributions.
