@@ -36,9 +36,9 @@ Feel free to fork the repo and submit a pull request.
 This project is licensed under the MIT License.
 
 📬 Contact
-Email: your.email@example.com
-LinkedIn: YourLinkedIn
-Portfolio Website: yourwebsite.com
+Email: fahad630321@gmail.com
+LinkedIn: 
+Portfolio Website:
 Thanks for visiting! Don’t forget to ⭐ this repo if you find it useful.
 ---
 Ready to Collaborate in any Project 
