@@ -49,7 +49,108 @@
             margin: 0 auto;
             padding: 2rem 0;
         }
+/* Skill Progress Bars */
+.skill-progress-container {
+    margin-top: 5px;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    overflow: hidden;
+}
 
+.skill-progress {
+    height: 100%;
+    background-color: var(--primary);
+}
+
+/* Light Mode Styles */
+body.light-mode {
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+body.light-mode .navbar {
+    background-color: rgba(249, 250, 251, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .nav-links a {
+    color: var(--dark);
+}
+
+body.light-mode .project-card,
+body.light-mode .skill-category,
+body.light-mode .timeline-content,
+body.light-mode .contact-card,
+body.light-mode .contact-form {
+    background-color: rgba(249, 250, 251, 0.6);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .project-card:hover,
+body.light-mode .skill-category:hover,
+body.light-mode .timeline-content:hover,
+body.light-mode .contact-card:hover {
+    border-color: rgba(16, 185, 129, 0.3);
+}
+
+body.light-mode .tech-tag,
+body.light-mode .tech-item {
+    background-color: rgba(16, 185, 129, 0.2);
+}
+
+/* Filter Buttons */
+.filter-btn.active {
+    background-color: var(--primary) !important;
+    color: var(--dark) !important;
+}
+
+/* Theme Toggle */
+.theme-toggle {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+.theme-toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--dark);
+    transition: .4s;
+    border-radius: 34px;
+    border: 1px solid var(--primary);
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: var(--primary);
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: var(--light-secondary);
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
         /* Header Styles */
         header {
             min-height: 100vh;
