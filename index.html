@@ -1376,45 +1376,7 @@ me = Developer('Fahad')
 print(me.build('intelligent apps'))`
     };
     
-    // Create language selector
-    const langSelector = document.createElement('div');
-    langSelector.style.display = 'flex';
-    langSelector.style.gap = '10px';
-    langSelector.style.marginBottom = '10px';
     
-    Object.keys(languages).forEach(lang => {
-        const btn = document.createElement('button');
-        btn.textContent = lang;
-        btn.style.background = 'transparent';
-        btn.style.border = '1px solid var(--primary)';
-        btn.style.color = 'var(--primary)';
-        btn.style.padding = '5px 10px';
-        btn.style.borderRadius = '4px';
-        btn.style.cursor = 'pointer';
-        btn.style.transition = 'var(--transition)';
-        
-        btn.addEventListener('mouseenter', () => {
-            btn.style.background = 'rgba(16, 185, 129, 0.1)';
-        });
-        
-        btn.addEventListener('mouseleave', () => {
-            btn.style.background = 'transparent';
-        });
-        
-        btn.addEventListener('click', () => {
-            codeSnippet.querySelector('code').textContent = languages[lang];
-        });
-        
-        langSelector.appendChild(btn);
-    });
-    
-    codeSnippet.insertBefore(langSelector, codeSnippet.firstChild);
-}
-
-document.addEventListener('DOMContentLoaded', setupCodeViewer);
-
-// Call this after DOM loads
-document.addEventListener('DOMContentLoaded', addTiltEffect);
         
     </script>
 </body>
