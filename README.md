@@ -19,12 +19,7 @@ Here are some of the languages and tools I work with:
 - **Cloud Platforms**: AWS, Firebase
 - **Testing**: Jest, Mocha, Postman
 
-## 📂 Projects
 
-| Project | Description | Tech |
-|--------|-------------|------|
-| [Project Name](#) | Short description of the project | Python, Flask |
-| [Another Project](#) | Another brief summary | React, Node.js, MongoDB |
 
 > Full list of projects is available in the **Projects** folder or pinned repositories.
 > 
