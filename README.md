@@ -1,39 +1,60 @@
-# Portfolio
-Hi 👋This is my Portfolio Show Case of All My Projects
-# 💻 Software Development Engineer Portfolio
+# 💻 Software Development Engineer Portfolio  
 
-Welcome to my GitHub portfolio! I'm a passionate **Software Development Engineer (SDE)** with experience in designing, developing, and deploying scalable software solutions. This repository highlights my key skills, projects, and contributions.
+Hi 👋 I'm **Fahad**, a passionate **Software Development Engineer (SDE)** dedicated to building scalable, reliable, and user-focused software solutions.  
 
-## 🚀 About Me
+Welcome to my **Portfolio Showcase**, where I highlight my top projects, technologies, and contributions 🚀  
 
-- 👨‍💻 Enthusiastic about solving real-world problems through code  
-- 💡 Constantly learning new technologies and improving existing skills  
-- 🤝 Open to collaboration on interesting projects  
-
-## 🛠️ Tech Stack
-Here are some of the languages and tools I work with:
-- **Languages**: Python, Java, JavaScript, C++
-- **Web Development**: HTML, CSS, React, Node.js, Express
-- **Databases**: MySQL, MongoDB, PostgreSQL
-- **DevOps & Tools**: Git, Docker, GitHub Actions, VS Code
-- **Cloud Platforms**: AWS, Firebase
-- **Testing**: Jest, Mocha, Postman
-
-
-
-> Full list of projects is available in the **Projects** folder or pinned repositories.
-> 
-🤝 Contributing
-Contributions, issues, and feature requests are welcome!
-Feel free to fork the repo and submit a pull request.
-
-📄 License
-This project is licensed under the MIT License.
-
-📬 Contact
-Email: fahad630321@gmail.com
-LinkedIn: 
-Portfolio Website:
-Thanks for visiting! Don’t forget to ⭐ this repo if you find it useful.
 ---
-Ready to Collaborate in any Project 
+
+## 🚀 About Me  
+
+- 👨‍💻 Passionate about solving real-world problems through clean and efficient code  
+- 💡 Always learning new technologies and improving my skills  
+- 🤝 Open to collaboration and innovative projects  
+- 🎯 Focused on full-stack development, DevOps, and cloud engineering  
+
+---
+
+## 🛠️ Tech Stack  
+
+**Languages:**  
+`Java` • `Python` • `C` • `R` • `Bash Script`  
+
+**Web Development:**  
+`HTML5` • `CSS3` • `JavaScript` • `TypeScript` • `React.js` • `Vue.js` • `Vite.js` • `Node.js` • `Express.js` • `EJS`
+
+**Databases:**  
+`MySQL` • `MongoDB`
+
+**Frameworks & Tools:**  
+`Tailwind CSS` • `Bootstrap` • `Docker` • `Git & GitHub` • `VS Code` • `Linux/Unix` • `Netlify` • `Streamlit`
+
+**CS Fundamentals:**  
+`DBMS` • `OOP` • `Cloud Computing` • `Operating Systems` • `Networking` • `DSA` • `Problem Solving`
+
+---
+
+## 📂 Featured Projects  
+
+| Project | Description | Tech Stack | Links |
+|----------|--------------|------------|--------|
+| **🌦️ AI-Powered Weather Forecasting** | Real-time weather app using OpenWeatherMap & OpenAI API with Streamlit | Python, Streamlit, OpenAI API | [Live Demo](https://weatherapp-4jxsupwkeattyvmbyndkz2.streamlit.app/) |
+| **📊 Project Management Dashboard** | Full CRUD dashboard with CI/CD pipeline on AWS | React.js, AWS, GitHub Actions | [Repo](https://github.com/Fahad-1515/Task-Management-Dashboard) |
+| **🎬 MovieDB** | Movie discovery app with real-time search & watchlist | React.js, Vite.js, Tailwind CSS | [Live Demo](https://movie-db-nine-omega.vercel.app/) |
+| **🧾 Express EJS Forms** | Authentication system using Express, MongoDB, and EJS | Express.js, Bootstrap, MongoDB | [Repo](https://github.com/Fahad-1515/express-ejs-forms) |
+| **🚖 Uber Datasets Analytics** | Data cleaning, EDA, and insight extraction on Uber rides | Python, SQL, Matplotlib, Seaborn | [Repo](https://github.com/Fahad-1515/Uber-Datasets-Analytics) |
+
+---
+
+## 🧩 Achievements  
+
+- 🎓 Active learner on **Coursera, Cisco NetAcad, and Google Cloud Skills Boost**  
+- 🧠 Participated in **Gen AI Exchange Program** by Google Cloud  
+- 🏆 Multiple verified certifications in **Web Development, Python, and Cloud Computing** 
+---
+
+## 🤝 Let's Connect  
+
+📧 **Email:** [fahad630321@gmail.com](mailto:fahad630321@gmail.com)  
+💼 **LinkedIn:** [linkedin.com/in/fahad630](https://www.linkedin.com/in/fahad630/)  
+💻 **GitHub:** [github.com/Fahad-1515](https://github.com/Fahad-1515)
