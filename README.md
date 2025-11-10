@@ -43,7 +43,7 @@ Welcome to my **Portfolio Showcase**, where I highlight my top projects, technol
 | **🎬 MovieDB** | Movie discovery app with real-time search & watchlist | React.js, Vite.js, Tailwind CSS | [Live Demo](https://movie-db-nine-omega.vercel.app/) |
 | **🧾 Express EJS Forms** | Authentication system using Express, MongoDB, and EJS | Express.js, Bootstrap, MongoDB | [Repo](https://github.com/Fahad-1515/express-ejs-forms) |
 | **🚖 Uber Datasets Analytics** | Data cleaning, EDA, and insight extraction on Uber rides | Python, SQL, Matplotlib, Seaborn | [Repo](https://github.com/Fahad-1515/Uber-Datasets-Analytics) |
-| **🧑‍💼 Employee-Management-System** | Login/Logout (JWT-based Authentication), Search and filter employees, Role-based access (Admin/User),Responsive UI with Angular, REST APIs built with Spring Boot + Hibernate, | Java, Spring Boot, Hibernate, MySQL, Angular, JWT , MySQL | https://github.com/Fahad-1515/Employee-Management-System-EMS- |
+| **🧑‍💼 Employee-Management-System** | Login/Logout (JWT-based Authentication), Search and filter employees, Role-based access (Admin/User),Responsive UI with Angular, REST APIs built with Spring Boot + Hibernate, | Java, Spring Boot, Hibernate, MySQL, Angular, JWT , MySQL | [Repo](https://github.com/Fahad-1515/Employee-Management-System-EMS-) |
 ---
 
 ## 🧩 Achievements  
