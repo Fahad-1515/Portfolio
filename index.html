@@ -2,1422 +2,2752 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Portfolio | Fahad  </title>
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-  <link rel="shortcut icon" href="F.png" type="image">
-<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">  
-</head>
-  <body>
-    <header>
-      <nav id="navbar" class="dark">
-        <div class="nav-container">
-          <div class="logo1">Portfolio</div>
-          <div class="logo">Portfolio</div>
-          <div class="nav-links" id="nav-links">
-            <a href="#home">Home</a>
-            <a href="#About">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#Contact">Contact</a>
-          </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fahad | Full Stack Developer & Data Analyst</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="F.png" type="image" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <style>
+      :root {
+        --valorant-red: #ff4655;
+        --valorant-dark: #0f1923;
+        --valorant-light: #ece8e1;
+        --valorant-black: #111111;
+        --accent-blue: #2a9fd6;
 
-          <div style="display: flex; align-items: center">
-            <div
-              class="theme-toggle"
-              id="theme-toggle"
-              aria-label="Toggle dark/light theme"
-              role="button"
-              tabindex="0"
-              title="Toggle dark/light theme"
-            >
-              🌙
-            </div>
-            <div
-              class="hamburger"
-              id="hamburger"
-              aria-label="Toggle navigation"
-              role="button"
-              tabindex="0"
-            >
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main>
+        /* Theme variables */
+        --theme-primary: #ff4655;
+        --theme-background: #0f1923;
+        --theme-accent: #2a9fd6;
+        --theme-light: #ece8e1;
+      }
 
-      <section id="home" class="flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto px-6 py-20 gap-10">
-        
-        
-        <div class="md:w-1/2 space-y-6"></br>
-          <h1 class="text-5xl font-extrabold leading-tight">
-            Hi👋 , I'm <span class="Name">Fahad</span>
-          </h1> 
-<h1 class="typing-effect" id="typing-text">Full Stack Developer</h1>
-    <pre class="p">
-I am a Full Stack Developer with a Passion for Creating 
-immersive Digital experiences. 
-I thrive in challenging environments and Constantly
-evolve my skills to dominate the Digital landscape.</pre><br/>
-    <span class="tech-tag">React</span>
-    <span class="tech-tag">JavaScript</span>
-    <span class="tech-tag">Node.js</span>
-    <span class="tech-tag">PostgreSQl</span>
-    <span class="tech-tag">MongoDB</span>
-    <div class="flex flex-wrap gap-4">
-      <a href="#projects" class="button1"  >Projects</a>        
-      <a href="#Contact" class="button" >Contact</a>
-    </div>
-    
-<div class="flex gap-6 mt-6 text-4xl">
-  
-  <a href="https://www.linkedin.com/in/fahad630/" target="_blank" title="LinkedIn"
-     class="pulse-zoom text-blue-600 hover:text-blue-900 transition">
-    <i class="fab fa-linkedin"></i> 
-  </a>
+      body {
+        font-family: "Oxanium", cursive;
+        background-color: var(--theme-background);
+        color: var(--valorant-light);
+        overflow-x: hidden;
+        transition: background-color 0.8s ease;
+      }
 
- 
-  <a href="https://github.com/Fahad-1515" target="_blank" title="GitHub"
-   class="pulse-zoom transition">
-  <i class="fab fa-github text-gray-800 hover:text-gray-600 dark:invert"></i>
-</a>
+      .valorant-bg {
+        background: linear-gradient(
+          135deg,
+          var(--theme-background) 0%,
+          #1a2a3a 100%
+        );
+      }
 
-  
-  <a href="https://www.instagram.com/fahad630321/" target="_blank" title="Instagram"
-   class="pulse-zoom transition" style="
-     background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;">
-  <i class="fab fa-instagram"></i>
-</a>
-<a href="https://x.com/fahad630321"
-   target="_blank"
-   title="Follow me on X"
-   class="pulse-zoom transition"
-   style="
-     display: inline-block;
-     font-size: 32px;
-     background: linear-gradient(45deg, #1DA1F2 0%, #0d8ddc 100%);
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-     transition: transform 0.3s ease;
-   "
-   aria-label="X (Twitter)">
-  <i class="fab fa-x-twitter"></i>
-</a>
-</div>
-  </div>
+      .valorant-section {
+        position: relative;
+        overflow: hidden;
+      }
 
-  
-  <div class="md:w-1/2 flex justify-center items-center">
-    <a href="https://github.com/Fahad-1515" target="_blank" title="View Template">
-    <img  width=550 height=350
-          src="https://i.pinimg.com/474x/75/87/df/7587df77ef521cf98057d0028ee983f1.jpg" 
-     alt="Template Preview" 
-     class="rounded-xl border-2 border-gray-300 pulse-zoom transition w-[500px] md:w-[600px]" />
-    </a>
-  </div>
+      .valorant-section::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23ff4655' fill-opacity='0.03' fill-rule='evenodd'/%3E%3C/svg%3E");
+        opacity: 0.5;
+        z-index: 0;
+      }
 
-</section>
-<div >
-<br></br>
-<br id="About" ></br>
-<h3 class="about-heading re4-glow-heading">About Me</h3>
-<pre class="about-description">
-  Hello, I'm Fahad Passionate about building Smart and Scalable Web & Mobile applications. 
-  I've completed a Full-Stack Development course and constantly explore new Technologies to refine my skills.
-  Focused on continuous learning, I Aim to transition into the IT industry by 2026 and eventually move towards AI and data science.
-</pre>
-<div class="about-actions">
-  <a download href="./Fahad_Resume_2025.pdf" title="Download CV" class="about-btn about-btn-main">Download CV</a>
-  <a href="#projects" title="Projects" class="about-btn about-btn-alt">View Projects</a>
-</div>
+      /* Dynamic Theme Colors */
+      .valorant-red {
+        color: var(--theme-primary);
+        transition: color 0.5s ease;
+      }
 
+      .accent-blue {
+        color: var(--accent-blue);
+      }
 
-<!-- bar-->
+      .bg-valorant-red {
+        background-color: var(--theme-primary);
+        transition: background-color 0.5s ease;
+      }
 
-<section class="dashboard-section py-12 px-6 flex flex-wrap justify-center gap-8">
-    
-  
-  <div class="relative re4-card rounded-2xl shadow-lg w-72 p-6 text-white hover:border-[#bfff5f] hover:shadow-[0_0_32px_#39ff14] transition-all flex flex-col justify-between h-40">
-    
-    <div class="absolute top-4 right-4 text-3xl font-extrabold re4-glow re4-accent-number">6</div>
-    <div class="flex items-center gap-4">
-      <img src="https://cdn.jsdelivr.net/npm/lucide-static@0.352.0/icons/rocket.svg" alt="Projects Icon" class="w-12 h-12 re4-icon" />
-    </div>
-    
-    <div class="text-center text-lg font-semibold mt-auto re4-glow card-label re4-accent-label">Total Projects</div>
-  </div>
+      .bg-accent-blue {
+        background-color: var(--accent-blue);
+      }
 
-  <div class="relative re4-card rounded-2xl shadow-lg w-72 p-6 text-white hover:border-[#bfff5f] hover:shadow-[0_0_32px_#39ff14] transition-all flex flex-col justify-between h-40">
-    <div class="absolute top-4 right-4 text-3xl font-extrabold re4-glow re4-accent-number">3</div>
-    <div class="flex items-center gap-4">
-      <img src="https://cdn.jsdelivr.net/npm/lucide-static@0.352.0/icons/award.svg" alt="Certificates Icon" class="w-12 h-12 re4-icon" />
-    </div>
-    <div class="text-center text-lg font-semibold mt-auto re4-glow card-label re4-accent-label">Certificates</div>
-  </div>
+      .border-valorant-red {
+        border-color: var(--theme-primary);
+        transition: border-color 0.5s ease;
+      }
 
-  <div class="relative re4-card rounded-2xl shadow-lg w-72 p-6 text-white hover:border-[#bfff5f] hover:shadow-[0_0_32px_#39ff14] transition-all flex flex-col justify-between h-40">
-    <div class="absolute top-4 right-4 text-3xl font-extrabold re4-glow re4-accent-number">3</div>
-    <div class="flex items-center gap-4">
-      <img src="https://cdn.jsdelivr.net/npm/lucide-static@0.352.0/icons/badge-check.svg" alt="Experience Icon" class="w-12 h-12 re4-icon" />
-    </div>
-    <div class="text-center text-lg font-semibold mt-auto re4-glow card-label re4-accent-label">Years of Experience</div>
-  </div>
-  
+      .valorant-btn {
+        background: transparent;
+        color: var(--valorant-light);
+        border: 2px solid var(--theme-primary);
+        padding: 12px 24px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        position: relative;
+        overflow: hidden;
+        transition: all 0.3s ease;
+        z-index: 1;
+      }
 
-</section>
-</div>
-<div class="icon-marquee-container">
-  <div class="icon-marquee">
-    <a href="https://www.javascript.com/" target="_blank"><i class="fab fa-js-square" data-title="JavaScript"></i></a>
-<a href="https://react.dev/" target="_blank"><i class="fab fa-react" data-title="React.js"></i></a>
-<a href="https://nodejs.org/" target="_blank"><i class="fab fa-node-js" data-title="Node.js"></i></a>
-<a href="https://git-scm.com/" target="_blank"><i class="fab fa-git-alt" data-title="Git"></i></a>
-<a href="https://www.docker.com/" target="_blank"><i class="fab fa-docker" data-title="Docker"></i></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><i class="fab fa-css3-alt" data-title="CSS3"></i></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><i class="fab fa-html5" data-title="HTML5"></i></a>
-<a href="https://www.npmjs.com/" target="_blank"><i class="fab fa-npm" data-title="NPM"></i></a>
-<a href="https://github.com/" target="_blank"><i class="fab fa-github" data-title="GitHub"></i></a>
-<a href="https://vuejs.org/" target="_blank"><i class="fab fa-vuejs" data-title="Vue.js"></i></a>
-<a href="https://www.figma.com/" target="_blank"><i class="fab fa-figma" data-title="Figma"></i></a>
-<a href="https://www.mongodb.com/" target="_blank"><i class="fas fa-database" data-title="Database"></i></a>
-<a href="https://www.javascript.com/" target="_blank"><i class="fab fa-js-square" data-title="JavaScript"></i></a>
-<a href="https://react.dev/" target="_blank"><i class="fab fa-react" data-title="React.js"></i></a>
-<a href="https://nodejs.org/" target="_blank"><i class="fab fa-node-js" data-title="Node.js"></i></a>
-<a href="https://git-scm.com/" target="_blank"><i class="fab fa-git-alt" data-title="Git"></i></a>
-<a href="https://www.docker.com/" target="_blank"><i class="fab fa-docker" data-title="Docker"></i></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><i class="fab fa-css3-alt" data-title="CSS3"></i></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><i class="fab fa-html5" data-title="HTML5"></i></a>
-<a href="https://www.npmjs.com/" target="_blank"><i class="fab fa-npm" data-title="NPM"></i></a>
-<a href="https://github.com/" target="_blank"><i class="fab fa-github" data-title="GitHub"></i></a>
-<a href="https://vuejs.org/" target="_blank"><i class="fab fa-vuejs" data-title="Vue.js"></i></a>
-<a href="https://www.figma.com/" target="_blank"><i class="fab fa-figma" data-title="Figma"></i></a>
-<a href="https://www.mongodb.com/" target="_blank"><i class="fas fa-database" data-title="Database"></i></a>
-    </div>
-</div>
-<br>
-<br>
-<br id="skills">
-<br>
-<div class="max-w-7xl mx-auto">
-    <!-- Header -->
-    <div class="text-center mb-16">
-            <h3 class="about-heading re4-glow-heading">Skills</h3>
-            <p class="text-xl text-slate-300 max-w-4xl mx-auto">
-                Technologies and tools I use to build modern, scalable applications
-            </p>
-                </div>
-            </div>
-        </div>
+      .valorant-btn::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: var(--theme-primary);
+        transition: all 0.3s ease;
+        z-index: -1;
+      }
 
-        <!-- Main Tech Stack Grid -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 mb-16">
-            
-            <!-- Programming Languages -->
-<div class="tech-category p-6" style="--category-color-1: #f59e0b; --category-color-2: #ef4444;">
-    <div class="flex items-center mb-6">
-        <div class="bg-gradient-to-br from-amber-500 to-red-500 rounded-xl p-3 mr-4">
-            <i class="fas fa-laptop-code text-white text-2xl"></i>
-        </div>
-        <div>
-            <h2 class="text-2xl font-bold category-header">Programming Languages</h2>
-            <p class="text-slate-400 text-sm">Core programming fundamentals</p>
-        </div>
-    </div>
+      .valorant-btn:hover::before {
+        left: 0;
+      }
 
-    <div class="tech-grid">
-        <div class="tech-item">
-            <a href="https://www.javascript.com/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">JavaScript</h3>
-        </div>
+      .valorant-btn:hover {
+        color: var(--valorant-light);
+      }
 
-        <div class="tech-item">
-            <a href="https://www.typescriptlang.org/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">TypeScript</h3>
-        </div>
+      .valorant-card {
+        background: rgba(15, 25, 35, 0.8);
+        border: 1px solid rgba(255, 70, 85, 0.3);
+        backdrop-filter: blur(10px);
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+      }
 
-        <div class="tech-item">
-            <a href="https://www.python.org/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Python</h3>
-        </div>
+      .valorant-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 4px;
+        height: 100%;
+        background: var(--theme-primary);
+        transform: scaleY(0);
+        transition: transform 0.3s ease;
+      }
 
-        <div class="tech-item">
-            <a href="https://www.java.com/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Java</h3>
-        </div>
+      .valorant-card:hover::before {
+        transform: scaleY(1);
+      }
 
-        <div class="tech-item">
-            <a href="https://go.dev/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" alt="Go" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Go</h3>
-        </div>
+      .valorant-card:hover {
+        border-color: var(--theme-primary);
+        transform: translateY(-5px);
+      }
 
-        <div class="tech-item">
-            <a href="https://www.rust-lang.org/" target="_blank">
-                <img src="https://www.techzine.eu/wp-content/uploads/2022/07/Rust_programming_language_black_logo.svg_.jpg" alt="Rust" class="tech-icon w-18 h-16 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Rust</h3>
-        </div>
+      .skill-bar {
+        height: 6px;
+        background: rgba(236, 232, 225, 0.2);
+        position: relative;
+        overflow: hidden;
+      }
 
-        <div class="tech-item">
-            <a href="https://isocpp.org/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">C++</h3>
-        </div>
+      .skill-progress {
+        height: 100%;
+        background: var(--theme-primary);
+        position: relative;
+        width: 0;
+        transition: width 1.5s ease-in-out;
+      }
 
-        <div class="tech-item">
-            <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">C#</h3>
-        </div>
-    </div>
-</div>
+      .skill-progress.accent {
+        background: var(--accent-blue);
+      }
 
-            
-          <!-- Frontend Development -->
-<div class="tech-category p-6" style="--category-color-1: #3b82f6; --category-color-2: #06b6d4;">
-    <div class="flex items-center mb-6">
-        <div class="bg-gradient-to-br from-blue-500 to-cyan-500 rounded-xl p-3 mr-4">
-            <i class="fas fa-palette text-white text-2xl"></i>
-        </div>
-        <div>
-            <h2 class="text-2xl font-bold category-header">Frontend Development</h2>
-            <p class="text-slate-400 text-sm">User interface and experience</p>
-        </div>
-    </div>
-    
-    <div class="tech-grid">
-        <div class="tech-item">
-            <a href="https://react.dev/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">React</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://nextjs.org/" target="_blank">
-                <img src="https://marcbruederlin.gallerycdn.vsassets.io/extensions/marcbruederlin/next-icons/0.1.0/1723747598319/Microsoft.VisualStudio.Services.Icons.Default"
-                     alt="Next.js"
-                     class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Next.js</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://vuejs.org/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue.js" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Vue.js</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://angular.dev/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg" alt="Angular" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Angular</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://tailwindcss.com/" target="_blank">
-                <img src="https://blog.nashtechglobal.com/wp-content/uploads/2025/08/O-que-e-Tailwind-CSS-e-por-que-ele-virou-tendencia-no-front-end_-Programadores-Depre-Programacao-e-Tecnologia.jpeg" alt="Tailwind CSS" class="tech-icon w-18 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Tailwind CSS</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://sass-lang.com/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="Sass" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Sass/SCSS</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">HTML5</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">CSS3</h3>
-        </div>
-    </div>
-</div>
+      .floating {
+        animation: floating 3s ease-in-out infinite;
+      }
 
-            
-           <!-- Backend Development -->
-<div class="tech-category p-6" style="--category-color-1: #10b981; --category-color-2: #059669;">
-    <div class="flex items-center mb-6">
-        <div class="bg-gradient-to-br from-emerald-500 to-green-600 rounded-xl p-3 mr-4">
-            <i class="fas fa-server text-white text-2xl"></i>
-        </div>
-        <div>
-            <h2 class="text-2xl font-bold category-header">Backend Development</h2>
-            <p class="text-slate-400 text-sm">Server-side applications</p>
-        </div>
-    </div>
-    
-    <div class="tech-grid">
-        <div class="tech-item">
-            <a href="https://nodejs.org/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Node.js</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://expressjs.com/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express.js" class="tech-icon w-14 h-14 mx-auto mb-3" style="filter: brightness(0) invert(1);">
-            </a>
-            <h3 class="font-semibold text-center">Express.js</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://www.djangoproject.com/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Django</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://flask.palletsprojects.com/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Flask</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://spring.io/projects/spring-boot" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Spring Boot</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://laravel.com/" target="_blank">
-                <img src="https://webandcrafts.com/_next/image?url=https%3A%2F%2Fadmin.wac.co%2Fuploads%2F10_Great_Sites_Built_with_Laravel_Framework_0e893c2354.jpg&w=4500&q=90" alt="Laravel" class="tech-icon w-18 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Laravel</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://fastapi.tiangolo.com/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="FastAPI" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">FastAPI</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://graphql.org/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" alt="GraphQL" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">GraphQL</h3>
-        </div>
-    </div>
-</div>
+      @keyframes floating {
+        0% {
+          transform: translate(0, 0px);
+        }
+        50% {
+          transform: translate(0, 15px);
+        }
+        100% {
+          transform: translate(0, -0px);
+        }
+      }
 
-            
-           <!-- Databases -->
-<div class="tech-category p-6" style="--category-color-1: #8b5cf6; --category-color-2: #a855f7;">
-    <div class="flex items-center mb-6">
-        <div class="bg-gradient-to-br from-purple-500 to-violet-600 rounded-xl p-3 mr-4">
-            <i class="fas fa-database text-white text-2xl"></i>
-        </div>
-        <div>
-            <h2 class="text-2xl font-bold category-header">Databases</h2>
-            <p class="text-slate-400 text-sm">Data storage & management</p>
-        </div>
-    </div>
-    
-    <div class="tech-grid">
-        <div class="tech-item">
-            <a href="https://www.mongodb.com/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">MongoDB</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://www.postgresql.org/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">PostgreSQL</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://www.mysql.com/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">MySQL</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://redis.io/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Redis</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://www.sqlite.org/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="SQLite" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">SQLite</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://firebase.google.com/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Firebase</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://www.oracle.com/database/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" alt="Oracle" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Oracle DB</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://www.elastic.co/elasticsearch/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg" alt="Elasticsearch" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Elasticsearch</h3>
-        </div>
-    </div>
-</div>
+      .typewriter {
+        border-right: 2px solid var(--theme-primary);
+        white-space: nowrap;
+        overflow: hidden;
+        animation: blink-caret 0.75s step-end infinite;
+      }
 
-<!-- DevOps & Cloud -->
-<div class="tech-category p-6" style="--category-color-1: #ec4899; --category-color-2: #f59e0b;">
-    <div class="flex items-center mb-6">
-        <div class="bg-gradient-to-br from-pink-500 to-amber-500 rounded-xl p-3 mr-4">
-            <i class="fas fa-cloud text-white text-2xl"></i>
-        </div>
-        <div>
-            <h2 class="text-2xl font-bold category-header">DevOps & Cloud</h2>
-            <p class="text-slate-400 text-sm">Infrastructure & deployment</p>
-        </div>
-    </div>
-    
-    <div class="tech-grid">
-        <div class="tech-item">
-            <a href="https://www.docker.com/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Docker</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://kubernetes.io/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Kubernetes</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://aws.amazon.com/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">AWS</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://azure.microsoft.com/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Azure</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://cloud.google.com/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="GCP" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Google Cloud</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://git-scm.com/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Git</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://www.jenkins.io/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Jenkins</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://nginx.org/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" alt="Nginx" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Nginx</h3>
-        </div>
-    </div>
-</div>
+      @keyframes blink-caret {
+        from,
+        to {
+          border-color: transparent;
+        }
+        50% {
+          border-color: var(--theme-primary);
+        }
+      }
 
-            
-            <!-- Mobile & Emerging Tech -->
-<div class="tech-category p-6" style="--category-color-1: #06b6d4; --category-color-2: #10b981;">
-    <div class="flex items-center mb-6">
-        <div class="bg-gradient-to-br from-cyan-500 to-emerald-500 rounded-xl p-3 mr-4">
-            <i class="fas fa-mobile-alt text-white text-2xl"></i>
-        </div>
-        <div>
-            <h2 class="text-2xl font-bold category-header">Mobile & Emerging Tech</h2>
-            <p class="text-slate-400 text-sm">Cutting-edge technologies</p>
-        </div>
-    </div>
-    
-    <div class="tech-grid">
-        <div class="tech-item">
-            <a href="https://reactnative.dev/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Native" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">React Native</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://flutter.dev/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Flutter</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://www.tensorflow.org/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">TensorFlow</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://pytorch.org/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">PyTorch</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://unity.com/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" alt="Unity" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Unity</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://www.arduino.cc/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" alt="Arduino" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Arduino</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://www.raspberrypi.com/" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" alt="Raspberry Pi" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Raspberry Pi</h3>
-        </div>
-        
-        <div class="tech-item">
-            <a href="https://www.ibm.com/topics/what-is-blockchain" target="_blank">
-                <img src="https://idbinvest.org/sites/default/files/styles/size936x656/public/blog_post/blockchain2.jpg.webp?itok=YnLsRRBF" alt="Blockchain" class="tech-icon w-14 h-14 mx-auto mb-3">
-            </a>
-            <h3 class="font-semibold text-center">Blockchain</h3>
-        </div>
-    </div>
-</div>
-</div>
+      .nav-link {
+        position: relative;
+        padding: 10px 0;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 1px;
+      }
 
-<!-- Portfolio Section -->
-<section id="projects" id="portfolio" class="tabs-section">
-    <div  class="section-header">
-        <h2 class="about-heading re4-glow-heading">  Portfolio Showcase</h2>
-        <pre class="text-xl text-gray-600 dark:text-gray-300">Explore my journey through projects, certifications, and technical expertise.
-   Each section represents a milestone in my continuous learning path.</pre>
-    </div>
-    
-    <!-- Tabs Navigation -->
-    <div class="tabs-nav">
-        <button class="tab-btn active" data-tab="projects-tab">
-            <i class="fas fa-code"></i> Projects
-        </button>
-        <button class="tab-btn" data-tab="certificates-tab">
-            <i class="fas fa-award"></i> Certificates
-        </button>
-        <button class="tab-btn" data-tab="techstack-tab">
-            <i class="fas fa-cogs"></i> Tech Stack
-        </button>
-    </div>
-    
-    <!-- Projects Tab -->
-    <div class="tab-content active" id="projects-tab">
-        <div class="projects-container">
-            <div class="gradient-overlay"></div>
-            <div class="projects-scroller">
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <a href="https://movie-db-nine-omega.vercel.app/" class="project-link" target="_blank">
-                        <div class="project-image" style="background-image: url('./images/MovieDB.jpg');"></div>
-                        <div class="project-content">
-                            <h3 class="project-title"><i class="fas fa-film"></i> MovieDB🍿🎬</h3>
-                            <p class="project-description">A Modern Movie discovery website built with React, Vite, and Tailwind CSS.Browse trending, popular, top-rated, and upcoming movies
-Search movies with Real-time results</p>
-                            <div class="project-tags">
-                                <span class="tag">React</span>
-                                <span class="tag">Vite</span>
-                                <span class="tag">Tailwind CSS</span>
-                            </div>
-                        </div>
-                        <div class="project-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-                
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <a href="https://weatherapp-4jxsupwkeattyvmbyndkz2.streamlit.app/" class="project-link" target="_blank">
-                        <div class="project-image" style="background-image: url('./images/weather.jpg');"></div>
-                        <div class="project-content">
-                            <h3 class="project-title"><i class="fas fa-sun"></i> Weather Forecast🌡️☁️</h3>
-                            <p class="project-description"> Weather Forecast for 7 Days for a specific Location input and Weekly Weather forecast.</p>
-                            <div class="project-tags">
-                                <span class="tag">Python</span>
-                                <span class="tag">Streamlit</span>
-                                <span class="tag">OpenWhether API</span>
-                            </div>
-                        </div>
-                        <div class="project-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-                
-                <!-- Project 3 -->
-                <div class="project-card">
-                    <a href="https://express-ejs-forms.vercel.app/" class="project-link">
-                        <div class="project-image" style="background-image: url('./images/ExpressjsForm.jpg');"></div>                        <div class="project-content">
-                            <h3 class="project-title"><i class="fas fa-file-alt"></i> Express-ejs-forms</h3>
-                            <p class="project-description"> Enhance Form Validation ,Login page ,Signup page using Expressjs.Integration with MongoDB DataBase</p>
-                            <div class="project-tags">
-                                <span class="tag">Expressjs</span>
-                                <span class="tag">JavaScript</span>
-                                <span class="tag">MongoDB</span>
-                            </div>
-                        </div>
-                        <div class="project-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-                
-                <!-- Project 4 -->
-                <div class="project-card">
-                    <a href="https://github.com/Fahad-1515/Breakout-PyQt6" class="project-link">
-                    <div class="project-image" style="background-image: url('./images/Breakout Ball.jpg');"></div>     
-                        <div class="project-content">
-                            <h3 class="project-title"><i class="fas fa-gamepad"></i> Breakoutball Game</h3>
-                            <p class="project-description">A revolutionary Breakout game experience built with PyQt6, featuring groundbreaking mechanics and visual effects.</p>
-                            <div class="project-tags">
-                                <span class="tag">Python</span>
-                                <span class="tag">PyQt6</span>
-                                <span class="tag">GUI</span>
-                            </div>
-                        </div>
-                        <div class="project-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-                
-                <!-- Project 5 -->
-                <div class="project-card">
-                    <a href="https://github.com/Fahad-1515/Uber-Datasets-Analytics" class="project-link">
-                    <div class="project-image" style="background-image: url('./images/uber.jpg');"></div>                             <div class="project-content">
-                            <h3 class="project-title"><i class="fas fa-chart-bar"></i> Uber Ride Analysis</h3>
-                            <p class="project-description">Uber Ride Cancellation Analysis Dashboard.Reason for the Ride Cancellation</p>
-                            <div class="project-tags">
-                                <span class="tag">Excel-xlsx</span>
-                                <span class="tag">SQL</span>
-                                <span class="tag">Python3</span>
-                                <span class="tag">Matplotlib</span>
-                                <span class="tag">Seaborn-plots</span>
-                            </div>
-                        </div>
-                        <div class="project-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-                
-                
-                <!-- Duplicate projects for seamless scrolling -->
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <a href="https://movie-db-nine-omega.vercel.app/" class="project-link" target="_blank">
-                        <div class="project-image" style="background-image: url('./images/MovieDB.jpg');"></div>
-                        <div class="project-content">
-                            <h3 class="project-title"><i class="fas fa-film"></i> MovieDB🍿🎬</h3>
-                            <p class="project-description">A Modern Movie discovery website built with React, Vite, and Tailwind CSS.</p>
-                            <div class="project-tags">
-                                <span class="tag">React</span>
-                                <span class="tag">Vite</span>
-                                <span class="tag">Tailwind</span>
-                            </div>
-                        </div>
-                        <div class="project-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-                
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <a href="https://weatherapp-4jxsupwkeattyvmbyndkz2.streamlit.app/" class="project-link" target="_blank">
-                        <div class="project-image" style="background: linear-gradient(45deg, #a1c4fd, #c2e9fb);"></div>
-                        <div class="project-content">
-                            <h3 class="project-title"><i class="fas fa-cloud-sun"></i> Weather App</h3>
-                            <p class="project-description">Weather Forecast for 7 Days to a specific Location and Weekly Weather forecast.</p>
-                            <div class="project-tags">
-                                <span class="tag">Python</span>
-                                <span class="tag">Streamlit</span>
-                                <span class="tag">API</span>
-                            </div>
-                        </div>
-                        <div class="project-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-                
-                <!-- Project 3 -->
-                <div class="project-card">
-                    <a href="#" class="project-link">
-                        <div class="project-image" style="background: linear-gradient(45deg, #ffecd2, #fcb69f);"></div>
-                        <div class="project-content">
-                            <h3 class="project-title"><i class="fas fa-laptop-code"></i> Portfolio Website</h3>
-                            <p class="project-description">Responsive portfolio website with dark/light theme toggle and modern UI design.</p>
-                            <div class="project-tags">
-                                <span class="tag">HTML</span>
-                                <span class="tag">CSS</span>
-                                <span class="tag">JavaScript</span>
-                            </div>
-                        </div>
-                        <div class="project-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-                
-                <!-- Project 4 -->
-                <div class="project-card">
-                    <a href="#" class="project-link">
-                        <div class="project-image" style="background: linear-gradient(45deg, #84fab0, #8fd3f4);"></div>
-                        <div class="project-content">
-                            <h3 class="project-title"><i class="fas fa-tasks"></i> Task Manager</h3>
-                            <p class="project-description">Full-stack task management application with real-time updates and user authentication.</p>
-                            <div class="project-tags">
-                                <span class="tag">Node.js</span>
-                                <span class="tag">MongoDB</span>
-                                <span class="tag">Express</span>
-                            </div>
-                        </div>
-                        <div class="project-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-                
-                <!-- Project 5 -->
-                <div class="project-card">
-                    <a href="#" class="project-link">
-                        <div class="project-image" style="background: linear-gradient(45deg, #d4fc79, #96e6a1);"></div>
-                        <div class="project-content">
-                            <h3 class="project-title"><i class="fas fa-shopping-cart"></i> E-commerce Platform</h3>
-                            <p class="project-description">Complete e-commerce solution with payment integration and admin dashboard.</p>
-                            <div class="project-tags">
-                                <span class="tag">React</span>
-                                <span class="tag">Stripe</span>
-                                <span class="tag">Firebase</span>
-                            </div>
-                        </div>
-                        <div class="project-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-                
-                <!-- Project 6 -->
-                <div class="project-card">
-                    <a href="#" class="project-link">
-                        <div class="project-image" style="background: linear-gradient(45deg, #a6c0fe, #f68084);"></div>
-                        <div class="project-content">
-                            <h3 class="project-title"><i class="fas fa-users"></i> Social Media App</h3>
-                            <p class="project-description">Social networking platform with real-time messaging and media sharing capabilities.</p>
-                            <div class="project-tags">
-                                <span class="tag">Socket.io</span>
-                                <span class="tag">React Native</span>
-                                <span class="tag">AWS</span>
-                            </div>
-                        </div>
-                        <div class="project-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-                
-                <!-- Project 7 -->
-                <div class="project-card">
-                    <a href="#" class="project-link">
-                        <div class="project-image" style="background: linear-gradient(45deg, #fccb90, #d57eeb);"></div>
-                        <div class="project-content">
-                            <h3 class="project-title"><i class="fas fa-chart-bar"></i> Data Visualization</h3>
-                            <p class="project-description">Interactive data visualization dashboard with real-time analytics and reporting.</p>
-                            <div class="project-tags">
-                                <span class="tag">D3.js</span>
-                                <span class="tag">Python</span>
-                                <span class="tag">Data Analysis</span>
-                            </div>
-                        </div>
-                        <div class="project-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-            </div>
+      .nav-link::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: var(--theme-primary);
+        transition: width 0.3s ease;
+      }
+
+      .nav-link:hover::after {
+        width: 100%;
+      }
+
+      .hexagon {
+        clip-path: polygon(
+          50% 0%,
+          100% 25%,
+          100% 75%,
+          50% 100%,
+          0% 75%,
+          0% 25%
+        );
+      }
+
+      .tech-tag {
+        display: inline-block;
+        background: rgba(255, 70, 85, 0.2);
+        border: 1px solid rgba(255, 70, 85, 0.3);
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        font-size: 0.875rem;
+        margin: 0.25rem;
+        transition: all 0.3s ease;
+      }
+
+      .tech-tag:hover {
+        background: var(--theme-primary);
+        transform: translateY(-2px);
+      }
+
+      .stat-card {
+        background: rgba(15, 25, 35, 0.7);
+        border: 1px solid rgba(255, 70, 85, 0.2);
+        padding: 1.5rem;
+        text-align: center;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+      }
+
+      .stat-card:hover {
+        border-color: var(--theme-primary);
+        transform: translateY(-5px);
+      }
+
+      .icon-marquee {
+        display: flex;
+        overflow: hidden;
+        padding: 1rem 0;
+        background: rgba(15, 25, 35, 0.8);
+        border-top: 1px solid rgba(255, 70, 85, 0.3);
+        border-bottom: 1px solid rgba(255, 70, 85, 0.3);
+      }
+
+      .icon-marquee-content {
+        display: flex;
+        animation: scroll 30s linear infinite;
+      }
+
+      .icon-marquee-content i {
+        font-size: 2.5rem;
+        margin: 0 1.5rem;
+        color: var(--valorant-light);
+        transition: all 0.3s ease;
+      }
+
+      .icon-marquee-content i:hover {
+        color: var(--theme-primary);
+        transform: scale(1.2);
+      }
+
+      @keyframes scroll {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-50%);
+        }
+      }
+
+      /* Project Card Styles */
+      .project-card {
+        position: relative;
+        border-radius: 12px;
+        overflow: hidden;
+        transition: all 0.4s ease;
+        height: 320px;
+        background: var(--theme-background);
+      }
+
+      .project-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 0.4s ease;
+      }
+
+      .project-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          to bottom,
+          rgba(15, 25, 35, 0) 0%,
+          rgba(15, 25, 35, 0.8) 70%,
+          rgba(15, 25, 35, 0.95) 100%
+        );
+        opacity: 0;
+        transition: all 0.4s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 1.5rem;
+      }
+
+      .project-card:hover .project-overlay {
+        opacity: 1;
+      }
+
+      .project-card:hover .project-image {
+        transform: scale(1.05);
+      }
+
+      .project-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        transform: translateY(20px);
+        transition: transform 0.4s ease;
+      }
+
+      .project-card:hover .project-title {
+        transform: translateY(0);
+      }
+
+      .project-description {
+        font-size: 0.9rem;
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all 0.4s ease 0.1s;
+        margin-bottom: 1rem;
+        line-height: 1.4;
+      }
+
+      .project-card:hover .project-description {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      .project-tech {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 1.5rem;
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all 0.4s ease 0.2s;
+      }
+
+      .project-card:hover .project-tech {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      .project-links {
+        display: flex;
+        gap: 1rem;
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all 0.4s ease 0.3s;
+      }
+
+      .project-card:hover .project-links {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      .project-link {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.5rem 1rem;
+        background: var(--theme-primary);
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 0.9rem;
+        transition: all 0.3s ease;
+      }
+
+      .project-link:hover {
+        background: var(--theme-primary);
+        filter: brightness(0.9);
+        transform: translateY(-2px);
+      }
+
+      .project-link.github {
+        background: rgba(255, 255, 255, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+      }
+
+      .project-link.github:hover {
+        background: rgba(255, 255, 255, 0.3);
+      }
+
+      .contact-form input,
+      .contact-form textarea {
+        background: rgba(15, 25, 35, 0.8);
+        border: 1px solid rgba(255, 70, 85, 0.3);
+        color: var(--valorant-light);
+        padding: 1rem;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+      }
+
+      .contact-form input:focus,
+      .contact-form textarea:focus {
+        border-color: var(--theme-primary);
+        outline: none;
+      }
+
+      /* Code Animation Styles */
+      .code-animation {
+        width: 100%;
+        height: 400px;
+        background: rgba(15, 25, 35, 0.9);
+        border: 1px solid rgba(255, 70, 85, 0.3);
+        border-radius: 8px;
+        overflow: hidden;
+        position: relative;
+        font-family: "Courier New", monospace;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+
+      .code-header {
+        background: rgba(255, 70, 85, 0.2);
+        padding: 8px 16px;
+        border-bottom: 1px solid rgba(255, 70, 85, 0.3);
+        display: flex;
+        align-items: center;
+      }
+
+      .code-dots {
+        display: flex;
+        gap: 6px;
+        margin-right: 12px;
+      }
+
+      .code-dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+      }
+
+      .code-dot.red {
+        background: #ff5f56;
+      }
+
+      .code-dot.yellow {
+        background: #ffbd2e;
+      }
+
+      .code-dot.green {
+        background: #27ca3f;
+      }
+
+      .code-title {
+        font-size: 12px;
+        color: var(--valorant-light);
+        opacity: 0.8;
+      }
+
+      .code-content {
+        padding: 16px;
+        height: calc(100% - 40px);
+        overflow: hidden;
+        position: relative;
+      }
+
+      .code-line {
+        display: flex;
+        margin-bottom: 4px;
+        opacity: 0;
+        animation: fadeInLine 0.5s forwards;
+      }
+
+      .line-number {
+        width: 40px;
+        color: rgba(255, 255, 255, 0.3);
+        text-align: right;
+        padding-right: 12px;
+        user-select: none;
+      }
+
+      .line-content {
+        flex: 1;
+        color: var(--valorant-light);
+      }
+
+      .code-keyword {
+        color: #ff79c6;
+      }
+
+      .code-function {
+        color: #50fa7b;
+      }
+
+      .code-string {
+        color: #f1fa8c;
+      }
+
+      .code-comment {
+        color: #6272a4;
+      }
+
+      .code-variable {
+        color: #8be9fd;
+      }
+
+      .code-operator {
+        color: #ff79c6;
+      }
+
+      .code-constant {
+        color: #bd93f9;
+      }
+
+      .cursor {
+        display: inline-block;
+        width: 8px;
+        height: 18px;
+        background: var(--theme-primary);
+        margin-left: 2px;
+        animation: blink 1s infinite;
+        vertical-align: middle;
+      }
+
+      @keyframes blink {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+      }
+
+      @keyframes fadeInLine {
+        from {
+          opacity: 0;
+          transform: translateX(-10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+
+      .code-scroll {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 30px;
+        background: linear-gradient(transparent, rgba(15, 25, 35, 0.9));
+        pointer-events: none;
+      }
+      /* Contact Section Styles */
+      .contact-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+      }
+
+      @media (max-width: 768px) {
+        .contact-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      .contact-info-card {
+        background: rgba(15, 25, 35, 0.8);
+        border: 1px solid rgba(255, 70, 85, 0.3);
+        border-radius: 12px;
+        padding: 2.5rem;
+        backdrop-filter: blur(10px);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .contact-info-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 4px;
+        height: 100%;
+        background: var(--theme-primary);
+      }
+
+      .contact-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+        padding: 1rem;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        border: 1px solid transparent;
+      }
+
+      .contact-item:hover {
+        background: rgba(255, 70, 85, 0.1);
+        border-color: rgba(255, 70, 85, 0.3);
+        transform: translateX(8px);
+      }
+
+      .contact-icon {
+        width: 50px;
+        height: 50px;
+        background: var(--theme-primary);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1.5rem;
+        flex-shrink: 0;
+      }
+
+      .contact-text h4 {
+        color: var(--theme-primary);
+        font-weight: 600;
+        margin-bottom: 0.25rem;
+        font-size: 1.1rem;
+      }
+
+      .contact-text p {
+        color: var(--valorant-light);
+        opacity: 0.9;
+      }
+
+      .social-links {
+        display: flex;
+        gap: 1rem;
+        margin-top: 2rem;
+        justify-content: center;
+      }
+
+      .social-link {
+        width: 45px;
+        height: 45px;
+        border: 2px solid var(--theme-primary);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--valorant-light);
+        text-decoration: none;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .social-link::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: var(--theme-primary);
+        transition: all 0.3s ease;
+        z-index: -1;
+      }
+
+      .social-link:hover::before {
+        left: 0;
+      }
+
+      .social-link:hover {
+        color: var(--valorant-light);
+        transform: translateY(-3px);
+      }
+
+      /* Contact Form Styles */
+      .contact-form-card {
+        background: rgba(15, 25, 35, 0.8);
+        border: 1px solid rgba(255, 70, 85, 0.3);
+        border-radius: 12px;
+        padding: 2.5rem;
+        backdrop-filter: blur(10px);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .contact-form-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 4px;
+        height: 100%;
+        background: var(--theme-primary);
+      }
+
+      .form-group {
+        position: relative;
+        margin-bottom: 2rem;
+      }
+
+      .form-input {
+        width: 100%;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        padding: 1rem 1.5rem;
+        color: var(--valorant-light);
+        font-size: 1rem;
+        transition: all 0.3s ease;
+      }
+
+      .form-input:focus {
+        outline: none;
+        border-color: var(--theme-primary);
+        background: rgba(255, 255, 255, 0.08);
+        box-shadow: 0 0 0 2px rgba(255, 70, 85, 0.2);
+      }
+
+      .form-label {
+        position: absolute;
+        top: 1rem;
+        left: 1.5rem;
+        color: rgba(236, 232, 225, 0.6);
+        transition: all 0.3s ease;
+        pointer-events: none;
+        background: var(--theme-background);
+        padding: 0 0.5rem;
+      }
+
+      .form-input:focus + .form-label,
+      .form-input:not(:placeholder-shown) + .form-label {
+        top: -0.5rem;
+        left: 1rem;
+        font-size: 0.8rem;
+        color: var(--theme-primary);
+      }
+
+      textarea.form-input {
+        resize: vertical;
+        min-height: 120px;
+      }
+
+      .submit-btn {
+        width: 100%;
+        background: var(--theme-primary);
+        color: white;
+        border: none;
+        padding: 1rem 2rem;
+        border-radius: 8px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .submit-btn:hover {
+        filter: brightness(0.9);
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(var(--theme-primary), 0.3);
+      }
+
+      .submit-btn:active {
+        transform: translateY(0);
+      }
+
+      /* Footer Styles */
+      .main-footer {
+        background: linear-gradient(
+          135deg,
+          #0a141f 0%,
+          var(--theme-background) 100%
+        );
+        border-top: 1px solid rgba(255, 70, 85, 0.3);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .footer-content {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 3rem;
+        padding: 3rem 0;
+      }
+
+      @media (max-width: 768px) {
+        .footer-content {
+          grid-template-columns: 1fr;
+          text-align: center;
+        }
+      }
+
+      .footer-brand {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      @media (max-width: 768px) {
+        .footer-brand {
+          align-items: center;
+        }
+      }
+
+      .footer-logo {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.5rem;
+      }
+
+      .footer-logo-icon {
+        width: 50px;
+        height: 50px;
+        background: var(--theme-primary);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1rem;
+        font-weight: bold;
+        font-size: 1.5rem;
+      }
+
+      .footer-logo-text {
+        font-size: 1.5rem;
+        font-weight: 700;
+      }
+
+      .footer-description {
+        color: rgba(236, 232, 225, 0.7);
+        line-height: 1.6;
+        margin-bottom: 2rem;
+        max-width: 400px;
+      }
+
+      .footer-heading {
+        color: var(--theme-primary);
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      .footer-links {
+        list-style: none;
+        padding: 0;
+      }
+
+      .footer-links li {
+        margin-bottom: 0.75rem;
+      }
+
+      .footer-links a {
+        color: rgba(236, 232, 225, 0.7);
+        text-decoration: none;
+        transition: all 0.3s ease;
+        display: inline-block;
+      }
+
+      .footer-links a:hover {
+        color: var(--theme-primary);
+        transform: translateX(5px);
+      }
+
+      .footer-contact-info {
+        color: rgba(236, 232, 225, 0.7);
+      }
+
+      .footer-contact-info p {
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+      }
+
+      @media (max-width: 768px) {
+        .footer-contact-info p {
+          justify-content: center;
+        }
+      }
+
+      .footer-contact-info i {
+        color: var(--theme-primary);
+        margin-right: 0.5rem;
+        width: 20px;
+      }
+
+      .footer-bottom {
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 1.5rem 0;
+        text-align: center;
+      }
+
+      .copyright {
+        color: rgba(236, 232, 225, 0.5);
+        font-size: 0.9rem;
+      }
+
+      .footer-social {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+
+      .status-indicator {
+        display: inline-flex;
+        align-items: center;
+        background: rgba(255, 70, 85, 0.1);
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        border: 1px solid rgba(255, 70, 85, 0.3);
+        margin-top: 1rem;
+      }
+
+      .status-dot {
+        width: 8px;
+        height: 8px;
+        background: var(--theme-primary);
+        border-radius: 50%;
+        margin-right: 0.5rem;
+        animation: pulse 2s infinite;
+      }
+
+      @keyframes pulse {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.5;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      /* Certificate Section Styles */
+      .certificate-card {
+        position: relative;
+        border-radius: 12px;
+        overflow: hidden;
+        transition: all 0.4s ease;
+        height: 300px;
+        background: var(--theme-background);
+      }
+
+      .certificate-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 0.4s ease;
+      }
+
+      .certificate-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          to bottom,
+          rgba(15, 25, 35, 0) 0%,
+          rgba(15, 25, 35, 0.8) 70%,
+          rgba(15, 25, 35, 0.95) 100%
+        );
+        opacity: 0;
+        transition: all 0.4s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 1.5rem;
+      }
+
+      .certificate-card:hover .certificate-overlay {
+        opacity: 1;
+      }
+
+      .certificate-card:hover .certificate-image {
+        transform: scale(1.05);
+      }
+
+      .certificate-title {
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        transform: translateY(20px);
+        transition: transform 0.4s ease;
+      }
+
+      .certificate-card:hover .certificate-title {
+        transform: translateY(0);
+      }
+
+      .certificate-issuer {
+        font-size: 1rem;
+        font-weight: 600;
+        color: var(--theme-primary);
+        margin-bottom: 0.5rem;
+        transform: translateY(20px);
+        transition: transform 0.4s ease 0.1s;
+      }
+
+      .certificate-card:hover .certificate-issuer {
+        transform: translateY(0);
+      }
+
+      .certificate-date {
+        font-size: 0.9rem;
+        opacity: 0.8;
+        margin-bottom: 1rem;
+        transform: translateY(20px);
+        transition: all 0.4s ease 0.2s;
+      }
+
+      .certificate-card:hover .certificate-date {
+        transform: translateY(0);
+      }
+
+      .certificate-links {
+        display: flex;
+        gap: 1rem;
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all 0.4s ease 0.3s;
+      }
+
+      .certificate-card:hover .certificate-links {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      .certificate-link {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.5rem 1rem;
+        background: var(--theme-primary);
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 0.9rem;
+        transition: all 0.3s ease;
+      }
+
+      .certificate-link:hover {
+        filter: brightness(0.9);
+        transform: translateY(-2px);
+      }
+
+      .certificate-link.verify {
+        background: rgba(255, 255, 255, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+      }
+
+      .certificate-link.verify:hover {
+        background: rgba(255, 255, 255, 0.3);
+      }
+
+      .certificate-badge {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        background: var(--theme-primary);
+        color: white;
+        padding: 0.25rem 0.75rem;
+        border-radius: 4px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        z-index: 2;
+      }
+
+      /* ============================================
+         THEME SYSTEM COMPONENTS
+         ============================================ */
+
+      /* Theme Indicator */
+      .theme-indicator {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 8px 16px;
+        border-radius: 20px;
+        backdrop-filter: blur(10px);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        transition: all 0.5s ease;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .theme-indicator.hidden {
+        opacity: 0;
+        transform: translateX(100px);
+        pointer-events: none;
+      }
+
+      .theme-preview {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: var(--theme-primary);
+        border: 2px solid white;
+      }
+
+      .theme-name {
+        color: white;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      .theme-time-bar {
+        width: 100px;
+        height: 3px;
+        background: rgba(255, 255, 255, 0.2);
+        margin-top: 4px;
+        border-radius: 2px;
+        overflow: hidden;
+      }
+
+      .theme-time-progress {
+        height: 100%;
+        width: 100%;
+        background: var(--theme-primary);
+        transform-origin: left;
+        animation: themeTime 15s linear infinite;
+      }
+
+      @keyframes themeTime {
+        from {
+          transform: scaleX(0);
+        }
+        to {
+          transform: scaleX(1);
+        }
+      }
+
+      /* Theme Toggle Button */
+      .theme-toggle-btn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: var(--theme-primary);
+        color: white;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        transition: all 0.3s ease;
+      }
+
+      .theme-toggle-btn:hover {
+        transform: scale(1.1);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+      }
+
+      .theme-toggle-btn:active {
+        transform: scale(0.95);
+      }
+
+      /* Mobile responsive */
+      @media (max-width: 768px) {
+        .theme-indicator {
+          top: 10px;
+          right: 10px;
+          padding: 6px 12px;
+        }
+
+        .theme-name {
+          font-size: 10px;
+        }
+
+        .theme-toggle-btn {
+          bottom: 10px;
+          right: 10px;
+          width: 40px;
+          height: 40px;
+          font-size: 1rem;
+        }
+      }
+
+      /* Update Tech Tag hover */
+      .tech-tag {
+        border-color: var(--theme-primary);
+      }
+
+      .tech-tag:hover {
+        background: var(--theme-primary);
+      }
+    </style>
+  </head>
+  <body class="valorant-bg">
+    <!-- Theme Indicator -->
+    <div id="themeIndicator" class="theme-indicator hidden">
+      <div class="theme-preview"></div>
+      <div>
+        <div class="theme-name" id="currentThemeName">Jett</div>
+        <div class="theme-time-bar">
+          <div class="theme-time-progress" id="themeProgress"></div>
         </div>
-    </div>
-    
-    <!-- Certificates Tab -->
-    <div class="tab-content" id="certificates-tab">
-        <div class="projects-container">
-            <div class="gradient-overlay"></div>
-            <div class="projects-scroller">
-                <!-- Certificate 1 -->
-                <div class="certificate-card">
-                    <a href="https://www.coursera.org/account/accomplishments/verify/4QSVAX73PJQD" class="certificate-link" target="_blank">
-<div class="certificate-image" style="background-image: url('./images/ReactBasics.jpg');"></div>
-                        <div class="certificate-content">
-                            <h3 class="certificate-title"><i class="fas fa-certificate"></i> React </h3>
-                            <p class="project-description">Advanced React development skills including hooks, context API, and performance optimization.</p>
-                            <div class="certificate-date">Issued: 2025</div>
-                        </div>
-                        <div class="certificate-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-                
-                <!-- Certificate 2 -->
-                <div class="certificate-card">
-                    <a href="https://www.coursera.org/account/accomplishments/verify/6QWWFANI5IC0" class="certificate-link" target="_blank">
-                    <div class="certificate-image" style="background-image: url('./images/Javascript.jpg');"></div>
-                        <div class="certificate-content">
-                            <h3 class="certificate-title"><i class="fas fa-certificate"></i> Programming with Javascript</h3>
-                            <p class="project-description">Mastered advanced JavaScript concepts, ES6+ features, and modern development practices.</p>
-                            <div class="certificate-date">Issued: 2025</div>
-                        </div>
-                        <div class="certificate-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-                
-                <!-- Certificate 3 -->
-                <div class="certificate-card">
-                    <a href="https://www.freecodecamp.org/certification/fahad/javascript-algorithms-and-data-structures" class="certificate-link" target="_blank">
-                    <div class="certificate-image" style="background-image: url('./images/HTMLCSS.jpg');"></div>
-                        <div class="certificate-content">
-                            <h3 class="certificate-title"><i class="fas fa-certificate"></i> HTML CSS in Depth</h3>
-                            <p class="project-description">Built responsive web pages using semantic HTML5 and modern CSS3.Practiced debugging and browser developer tools</p>
-                            <div class="certificate-date">Issued: 2025</div>
-                        </div>
-                        <div class="certificate-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-                
-                <!-- Certificate 6 -->
-                <div class="certificate-card">
-                    <a href="https://www.credly.com/badges/96b02fba-fed4-433f-add5-1e3b60173d64/linked_in_profile" class="certificate-link" target="_blank">
-                        <div class="certificate-image" style="background-image: url('./images/Python1.jpg');"></div>
-                        <div class="certificate-content">
-                            <h3 class="certificate-title"><i class="fas fa-certificate"></i> Python Essentials 1</h3>
-                            <p class="project-description">Gain the knowledge of the syntax and semantics of the Python language as well as demonstrate the ability to accomplish coding tasks related to the essentials of programming in the Python language and resolve implementation challenges using the Python Standard Library.</p>
-                            <div class="certificate-date">Issued: 2025</div>
-                        </div>
-                        <div class="certificate-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-                <!-- Certificate 4 -->
-                <div class="certificate-card">
-                    <a href="" class="chttps://www.coursera.org/account/accomplishments/verify/ARB41Q1QRPX9rtificate-link" target="_blank">
-                        <div class="certificate-image" style="background-image: url('./images/VersionControl.jpg');"></div>
-                        <div class="certificate-content">
-                            <h3 class="certificate-title"><i class="fas fa-certificate"></i> VersionControl</h3>
-                            <p class="project-description">Understood the fundamentals of Version Control Systems (VCS).Mastered GitHub workflows: branching, merging, and pull requests</p>
-                            <div class="certificate-date">Issued: 2025</div>
-                        </div>
-                        <div class="certificate-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-                
-                
-                <!-- Certificate 5 -->
-                <div class="certificate-card">
-                    <a href="https://www.coursera.org/account/accomplishments/verify/KA7FRW35KK9L" class="certificate-link" target="_blank">
-                        <div class="certificate-image" style="background-image: url('./images/Backenddev.jpg');"></div>
-                        <div class="certificate-content">
-                            <h3 class="certificate-title"><i class="fas fa-certificate"></i> Introduction to Backend</h3>
-                            <p class="project-description">Server-side JavaScript development, REST APIs, and backend architecture with Node.js.</p>
-                            <div class="certificate-date">Issued: 2025</div>
-                        </div>
-                        <div class="certificate-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-
-                
-                <!-- Certificate 7 -->
-                <div class="certificate-card">
-                    <a href="https://www.credly.com/badges/1b7426d8-69d0-4d19-aafd-6aa0225e9de9/linked_in_profile" class="certificate-link" target="_blank">
-                        <div class="certificate-image" style="background-image: url('./images/Python2.jpg');"></div>
-                        <div class="certificate-content">
-                            <h3 class="certificate-title"><i class="fas fa-certificate"></i> Python Essentials 2</h3>
-                            <p class="project-description">Object Oriented programming (OOPs) Using Python.</p>
-                            <div class="certificate-date">Issued: 2025</div>
-                        </div>
-                        <div class="certificate-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Certificate 8 -->
-                <div class="certificate-card">
-                    <a href="https://certificate.hack2skill.com/user/GenAI5-28M/2025H2S04GENAI-A00770" class="certificate-link" target="_blank">
-                        <div class="certificate-image" style="background-image: url('./images/GenAiAcadmy.jpg');"></div>
-                        <div class="certificate-content">
-                            <h3 class="certificate-title"><i class="fas fa-certificate"></i> Gen Ai Academy</h3>
-                            <p class="project-description">Participated in Google Cloud Skill Boost platform worked with Generative Ai,Vertex Ai,Gemini API's</p>
-                            <div class="certificate-date">Issued: 2025</div>
-                        </div>
-                        <div class="certificate-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-                
-                <!-- Duplicate certificates for seamless scrolling -->
-                <!-- Certificate 1 -->
-                <div class="certificate-card">
-                    <a href="https://www.coursera.org/account/accomplishments/verify/4QSVAX73PJQD" class="certificate-link" target="_blank">
-<div class="certificate-image" style="background-image: url('./images/ReactBasics.jpg');"></div>
-                        <div class="certificate-content">
-                            <h3 class="certificate-title"><i class="fas fa-certificate"></i> React </h3>
-                            <p class="project-description">Advanced React development skills including hooks, context API, and performance optimization.</p>
-                            <div class="certificate-date">Issued: 2025</div>
-                        </div>
-                        <div class="certificate-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-                
-                <!-- Certificate 2 -->
-                <div class="certificate-card">
-                    <a href="https://www.coursera.org/account/accomplishments/verify/6QWWFANI5IC0" class="certificate-link" target="_blank">
-                    <div class="certificate-image" style="background-image: url('./images/Javascript.jpg');"></div>
-                        <div class="certificate-content">
-                            <h3 class="certificate-title"><i class="fas fa-certificate"></i> Programming with Javascript</h3>
-                            <p class="project-description">Mastered advanced JavaScript concepts, ES6+ features, and modern development practices.</p>
-                            <div class="certificate-date">Issued: 2025</div>
-                        </div>
-                        <div class="certificate-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-                
-                <!-- Certificate 3 -->
-                <div class="certificate-card">
-                    <a href="https://www.freecodecamp.org/certification/fahad/javascript-algorithms-and-data-structures" class="certificate-link" target="_blank">
-                    <div class="certificate-image" style="background-image: url('./images/HTMLCSS.jpg');"></div>
-                        <div class="certificate-content">
-                            <h3 class="certificate-title"><i class="fas fa-certificate"></i> HTML CSS in Depth</h3>
-                            <p class="project-description">Built responsive web pages using semantic HTML5 and modern CSS3.Practiced debugging and browser developer tools</p>
-                            <div class="certificate-date">Issued: 2025</div>
-                        </div>
-                        <div class="certificate-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-                
-                <!-- Certificate 4 -->
-                <div class="certificate-card">
-                    <a href="" class="chttps://www.coursera.org/account/accomplishments/verify/ARB41Q1QRPX9rtificate-link" target="_blank">
-                        <div class="certificate-image" style="background-image: url('./images/VersionControl.jpg');"></div>
-                        <div class="certificate-content">
-                            <h3 class="certificate-title"><i class="fas fa-certificate"></i> VersionControl</h3>
-                            <p class="project-description">Understood the fundamentals of Version Control Systems (VCS).Mastered GitHub workflows: branching, merging, and pull requests</p>
-                            <div class="certificate-date">Issued: 2025</div>
-                        </div>
-                        <div class="certificate-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-                
-                <!-- Certificate 5 -->
-                <div class="certificate-card">
-                    <a href="https://www.coursera.org/account/accomplishments/verify/KA7FRW35KK9L" class="certificate-link" target="_blank">
-                        <div class="certificate-image" style="background-image: url('./images/Backenddev.jpg');"></div>
-                        <div class="certificate-content">
-                            <h3 class="certificate-title"><i class="fas fa-certificate"></i> Introduction to Backend</h3>
-                            <p class="project-description">Server-side JavaScript development, REST APIs, and backend architecture with Node.js.</p>
-                            <div class="certificate-date">Issued: 2025</div>
-                        </div>
-                        <div class="certificate-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-                
-                <!-- Certificate 6 -->
-                <div class="certificate-card">
-                    <a href="https://www.credly.com/badges/96b02fba-fed4-433f-add5-1e3b60173d64/linked_in_profile" class="certificate-link" target="_blank">
-                        <div class="certificate-image" style="background-image: url('./images/Python1.jpg');"></div>
-                        <div class="certificate-content">
-                            <h3 class="certificate-title"><i class="fas fa-certificate"></i> Python Essentials 1</h3>
-                            <p class="project-description">Gain the knowledge of the syntax and semantics of the Python language as well as demonstrate the ability to accomplish coding tasks related to the essentials of programming in the Python language and resolve implementation challenges using the Python Standard Library.</p>
-                            <div class="certificate-date">Issued: 2025</div>
-                        </div>
-                        <div class="certificate-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-                
-                <!-- Certificate 7 -->
-                <div class="certificate-card">
-                    <a href="https://www.credly.com/badges/1b7426d8-69d0-4d19-aafd-6aa0225e9de9/linked_in_profile" class="certificate-link" target="_blank">
-                        <div class="certificate-image" style="background-image: url('./images/Python2.jpg');"></div>
-                        <div class="certificate-content">
-                            <h3 class="certificate-title"><i class="fas fa-certificate"></i> Python Essentials 2</h3>
-                            <p class="project-description">Object Oriented programming (OOPs) Using Python.</p>
-                            <div class="certificate-date">Issued: 2025</div>
-                        </div>
-                        <div class="certificate-link-overlay">
-                            <i class="fas fa-external-link-alt"></i>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Tech Stack Tab -->
-    <div class="tab-content" id="techstack-tab">
-        <div class="tech-stack-container">
-            <!-- Frontend Technologies -->
-            <div class="tech-category">
-                <h3><i class="fas fa-desktop"></i> Frontend</h3>
-                <div class="tech-icons">
-                    <div class="tech-icon">
-                        <a href="https://react.dev/"><i class="fab fa-react" style="color: #61dafb;"></i></a>
-                        <span >React</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fab fa-vuejs" style="color: #42b883;"></i>
-                        <span>Vue.js</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fab fa-angular" style="color: #dd0031;"></i>
-                        <span>Angular</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fab fa-js-square" style="color: #f7df1e;"></i>
-                        <span>JavaScript</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fab fa-html5" style="color: #e34f26;"></i>
-                        <span>HTML5</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fab fa-css3-alt" style="color: #1572b6;"></i>
-                        <span>CSS3</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fab fa-sass" style="color: #cc6699;"></i>
-                        <span>Sass</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fab fa-bootstrap" style="color: #7952b3;"></i>
-                        <span>Bootstrap</span>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Backend Technologies -->
-            <div class="tech-category">
-                <h3><i class="fas fa-server"></i> Backend</h3>
-                <div class="tech-icons">
-                    <div class="tech-icon">
-                        <i class="fab fa-node-js" style="color: #339933;"></i>
-                        <span>Node.js</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fab fa-python" style="color: #3776ab;"></i>
-                        <span>Python</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fas fa-database" style="color: #336791;"></i>
-                        <span>SQL</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fas fa-database" style="color: #47a248;"></i>
-                        <span>MongoDB</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fas fa-fire" style="color: #ffa611;"></i>
-                        <span>Firebase</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fas fa-code" style="color: #009688;"></i>
-                        <span>Express.js</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fas fa-code" style="color: #000000;"></i>
-                        <span>Django</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fas fa-code" style="color: #6db33f;"></i>
-                        <span>Spring Boot</span>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Cloud & DevOps -->
-            <div class="tech-category">
-                <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
-                <div class="tech-icons">
-                    <div class="tech-icon">
-                        <i class="fab fa-aws" style="color: #ff9900;"></i>
-                        <span>AWS</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fab fa-google" style="color: #4285f4;"></i>
-                        <span>Google Cloud</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fab fa-microsoft" style="color: #0078d4;"></i>
-                        <span>Azure</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fab fa-docker" style="color: #2496ed;"></i>
-                        <span>Docker</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fas fa-ship" style="color: #326ce5;"></i>
-                        <span>Kubernetes</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fab fa-git-alt" style="color: #f05032;"></i>
-                        <span>Git</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fab fa-jenkins" style="color: #d24939;"></i>
-                        <span>Jenkins</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fas fa-code-branch" style="color: #f34f29;"></i>
-                        <span>GitHub Actions</span>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Tools & Others -->
-            <div class="tech-category">
-                <h3><i class="fas fa-tools"></i> Tools & Others</h3>
-                <div class="tech-icons">
-                    <div class="tech-icon">
-                        <i class="fab fa-figma" style="color: #f24e1e;"></i>
-                        <span>Figma</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fab fa-npm" style="color: #cb3837;"></i>
-                        <span>npm</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fab fa-yarn" style="color: #2c8ebb;"></i>
-                        <span>Yarn</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fas fa-terminal" style="color: #4d4d4d;"></i>
-                        <span>CLI</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fas fa-code" style="color: #007acc;"></i>
-                        <span>VS Code</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fab fa-trello" style="color: #0079bf;"></i>
-                        <span>Trello</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fab fa-slack" style="color: #4a154b;"></i>
-                        <span>Slack</span>
-                    </div>
-                    <div class="tech-icon">
-                        <i class="fas fa-chart-line" style="color: #00d4aa;"></i>
-                        <span>Data Analysis</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-</main><br>
-<footer id="Contact"><br><br>
-  <h3 class="about-heading re4-glow-heading">Connect With Me </h3>
-<pre class="text-xl text-gray-600 dark:text-gray-300 text-center"> I’m always open to connecting with passionate people — let’s build something great together.
-     Reach out through any of the platforms below.</pre>
-  <div class="contact-container">
-        <div class="contact-info">
-            <div class="particles" id="particles"></div>
-            <div>
-                <h2 class="text-3xl font-bold mb-6 re4-glow-heading">
-                    Contact Me
-                </h2>
-                
-                <div class="contact-details">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope" onclick="copyToClipboard('fahad630321@gmail.com')"></i>
-                        <div class="contact-text">
-                            <h4>Email</h4>
-                            <p>fahad630321@gmail.com</p>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <i class="fas fa-phone" onclick="copyToClipboard('+1 (555) 123-4567')"></i>
-                        <div class="contact-text">
-                            <h4>Phone</h4>
-                            <p>+91 6303212567</p>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt" onclick="showLocation()"></i>
-                        <div class="contact-text">
-                            <h4>Location</h4>
-                            <p>Hyderabad ,Telangana </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="social-section">
-                
-                
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/fahad630/" target="_blank" title="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://www.instagram.com/fahad630321" target="_blank" title="Instagram">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="https://x.com/fahad630321" target="_blank" title="Twitter/X">
-                        <i class="fa-brands fa-x-twitter"></i>
-                    </a>
-                </div>
-                
-                <a href="mailto:fahad630321@gmail.com" class="email-link">
-                    fahad630321@gmail.com
-                </a>
-            </div>
-        </div>
-        
-        <div class="contact-form">
-            <h3 class="text-3xl font-bold mb-6 re4-glow-heading">Get in Touch</h3>
-            <form id="contactForm" class="space-y-4">
-                <div class="form-group">
-                    <input type="text" id="name" class="w-full p-3 rounded" placeholder=" " required />
-                    <label for="name">Your Name</label>
-                    <div class="validation-message" id="nameError">Please enter your name</div>
-                </div>
-                
-                <div class="form-group">
-                    <input type="email" id="email" class="w-full p-3 rounded" placeholder=" " required />
-                    <label for="email">Your Email</label>
-                    <div class="validation-message" id="emailError">Please enter a valid email</div>
-                </div>
-                
-                <div class="form-group">
-                    <textarea id="message" rows="5" class="w-full p-3 rounded" placeholder=" " required></textarea>
-                    <label for="message">Your Message</label>
-                    <div class="validation-message" id="messageError">Please enter your message</div>
-                </div>
-                
-                <button type="submit" class="button" id="submitBtn">Send Message</button>
-            </form>
-            
-            <div class="message success-message" id="successMessage">
-                <i class="fas fa-check-circle"></i> Thank you! Your message has been sent successfully.
-            </div>
-            
-            <div class="message error-message" id="errorMessage">
-                <i class="fas fa-exclamation-circle"></i> <span id="errorText">There was an error sending your message. Please try again.</span>
-            </div>
-        </div>
-    </div>
-    
-  </footer>
-
-  <footer class="foot">
-      <div class="socials">
-        <a href="https://www.linkedin.com/in/fahad630/">LinkedIn</a> | <a href="https://github.com/Fahad-1515/WCypher">GitHub</a> | <a href="https://www.instagram.com/wcypherx/">Instagram</a> | <a href="https://x.com/WCypherx">x</a> 
       </div>
-      <p>&copy; 2025 Fahad. All rights reserved.</p>
-  </footer>
-    <script src="script.js"></script>
+    </div>
+
+    <!-- Theme Toggle Button -->
+    <button
+      id="themeToggle"
+      class="theme-toggle-btn"
+      title="Toggle Theme Cycling"
+    >
+      <i class="fas fa-palette"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav
+      class="fixed w-full z-50 bg-valorant-dark bg-opacity-90 backdrop-blur-sm border-b border-gray-800"
+    >
+      <div
+        class="container mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <div class="flex items-center">
+          <div
+            class="w-10 h-10 hexagon bg-valorant-red flex items-center justify-center mr-3"
+          >
+            <span class="font-bold text-white">F</span>
+          </div>
+          <a href="#" class="text-2xl font-bold uppercase tracking-wider"
+            >Fahad<span class="valorant-red">.</span></a
+          >
+        </div>
+        <div class="hidden md:flex space-x-8">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#certificates" class="nav-link">Certificates</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="md:hidden">
+          <button id="menu-btn" class="text-white focus:outline-none">
+            <i class="fas fa-bars text-xl"></i>
+          </button>
+        </div>
+      </div>
+      <!-- Mobile Menu -->
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden bg-valorant-dark px-6 py-4 border-t border-gray-800"
+      >
+        <a href="#home" class="block py-2 nav-link">Home</a>
+        <a href="#about" class="block py-2 nav-link">About</a>
+        <a href="#skills" class="block py-2 nav-link">Skills</a>
+        <a href="#certificates" class="block py-2 nav-link">Certificates</a>
+        <a href="#projects" class="block py-2 nav-link">Projects</a>
+        <a href="#contact" class="block py-2 nav-link">Contact</a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="min-h-screen valorant-section flex items-center pt-16"
+    >
+      <div
+        class="container mx-auto px-6 flex flex-col md:flex-row items-center relative z-10"
+      >
+        <div class="md:w-1/2 mb-10 md:mb-0">
+          <div class="text-sm uppercase tracking-widest valorant-red mb-2">
+            Full Stack Developer
+          </div>
+          <h1 class="text-4xl md:text-6xl font-bold mb-4">
+            Hi, I'm <span class="valorant-red">Fahad</span>
+          </h1>
+          <div class="text-xl md:text-2xl mb-6 h-8">
+            <span id="typewriter" class="typewriter"></span>
+          </div>
+          <p class="text-lg mb-8 opacity-80">
+            I am a Full Stack Developer with a Passion for Creating immersive
+            Digital experiences. I thrive in challenging environments and
+            Constantly evolve my skills to dominate the Digital landscape.
+          </p>
+          <div class="flex flex-wrap gap-2 mb-6">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">PostgreSQL</span>
+            <span class="tech-tag">MongoDB</span>
+          </div>
+          <div class="flex space-x-4">
+            <a href="#projects" class="valorant-btn">View Projects</a>
+            <a
+              href="#contact"
+              class="valorant-btn bg-valorant-red border-valorant-red"
+              >Contact Me</a
+            >
+          </div>
+          <div class="flex gap-6 mt-8 text-2xl">
+            <a
+              href="https://www.linkedin.com/in/fahad630"
+              target="_blank"
+              class="hover:text-blue-400 transition-colors"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/Fahad-1515"
+              target="_blank"
+              class="hover:text-gray-400 transition-colors"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/fahad630321/"
+              target="_blank"
+              class="hover:text-pink-500 transition-colors"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://x.com/fahad630321"
+              target="_blank"
+              class="hover:text-blue-400 transition-colors"
+            >
+              <i class="fab fa-x-twitter"></i>
+            </a>
+          </div>
+        </div>
+        <div class="md:w-1/2 flex justify-center">
+          <div class="code-animation">
+            <div class="code-header">
+              <div class="code-dots">
+                <div class="code-dot red"></div>
+                <div class="code-dot yellow"></div>
+                <div class="code-dot green"></div>
+              </div>
+              <div class="code-title">portfolio.js</div>
+            </div>
+            <div class="code-content" id="codeContent">
+              <!-- Code lines will be inserted here by JavaScript -->
+            </div>
+            <div class="code-scroll"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 valorant-section">
+      <div class="container mx-auto px-6 relative z-10">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-4 uppercase">
+          About Me
+        </h2>
+        <div class="w-24 h-1 bg-valorant-red mx-auto mb-12"></div>
+        <div class="flex flex-col md:flex-row items-center">
+          <div class="md:w-2/5 mb-10 md:mb-0 flex justify-center">
+            <div class="relative">
+              <div class="w-64 h-80 valorant-card p-1">
+                <div
+                  class="w-full h-full bg-gray-800 flex items-center justify-center"
+                >
+                  <i class="fas fa-user-tie text-6xl opacity-30"></i>
+                </div>
+              </div>
+              <div
+                class="absolute -bottom-4 -right-4 w-32 h-10 bg-valorant-red flex items-center justify-center"
+              >
+                <span class="text-sm font-bold uppercase">Full Stack</span>
+              </div>
+            </div>
+          </div>
+          <div class="md:w-3/5 md:pl-12">
+            <p class="text-lg mb-6 opacity-80">
+              Hello, I'm Fahad Passionate about building Smart and Scalable Web
+              & Mobile applications. I've completed a Full-Stack Development
+              course and constantly explore new Technologies to refine my
+              skills.
+            </p>
+            <p class="text-lg mb-6 opacity-80">
+              Focused on continuous learning, I Aim to transition into the IT
+              industry by 2026 and eventually move towards AI and data science.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+              <div class="stat-card">
+                <div class="text-3xl font-bold valorant-red">6+</div>
+                <div class="text-sm uppercase mt-2">Projects</div>
+              </div>
+              <div class="stat-card">
+                <div class="text-3xl font-bold valorant-red">8+</div>
+                <div class="text-sm uppercase mt-2">Certificates</div>
+              </div>
+              <div class="stat-card">
+                <div class="text-3xl font-bold valorant-red">3+</div>
+                <div class="text-sm uppercase mt-2">Years Experience</div>
+              </div>
+            </div>
+
+            <div class="flex space-x-4">
+              <a
+                href="./Fahad_Resume_2025.pdf"
+                download
+                class="valorant-btn bg-valorant-red border-valorant-red"
+                >Download CV</a
+              >
+              <a href="#projects" class="valorant-btn">View Projects</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 valorant-section">
+      <div class="container mx-auto px-6 relative z-10">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-4 uppercase">
+          Technical Skills
+        </h2>
+        <div class="w-24 h-1 bg-valorant-red mx-auto mb-12"></div>
+
+        <!-- Tech Marquee -->
+        <div class="icon-marquee mb-12">
+          <div class="icon-marquee-content">
+            <i class="fab fa-js-square" title="JavaScript"></i>
+            <i class="fab fa-react" title="React.js"></i>
+            <i class="fab fa-node-js" title="Node.js"></i>
+            <i class="fab fa-python" title="Python"></i>
+            <i class="fas fa-chart-bar" title="Data Analytics"></i>
+            <i class="fas fa-database" title="Database"></i>
+            <i class="fab fa-aws" title="AWS"></i>
+            <i class="fab fa-docker" title="Docker"></i>
+            <i class="fab fa-git-alt" title="Git"></i>
+            <i class="fas fa-server" title="DevOps"></i>
+            <i class="fab fa-html5" title="HTML5"></i>
+            <i class="fab fa-css3-alt" title="CSS3"></i>
+            <i class="fab fa-npm" title="NPM"></i>
+            <i class="fab fa-github" title="GitHub"></i>
+            <i class="fab fa-vuejs" title="Vue.js"></i>
+            <i class="fab fa-figma" title="Figma"></i>
+            <!-- Repeat for seamless loop -->
+            <i class="fab fa-js-square" title="JavaScript"></i>
+            <i class="fab fa-react" title="React.js"></i>
+            <i class="fab fa-node-js" title="Node.js"></i>
+            <i class="fab fa-python" title="Python"></i>
+            <i class="fas fa-chart-bar" title="Data Analytics"></i>
+            <i class="fas fa-database" title="Database"></i>
+            <i class="fab fa-aws" title="AWS"></i>
+            <i class="fab fa-docker" title="Docker"></i>
+            <i class="fab fa-git-alt" title="Git"></i>
+            <i class="fas fa-server" title="DevOps"></i>
+            <i class="fab fa-html5" title="HTML5"></i>
+            <i class="fab fa-css3-alt" title="CSS3"></i>
+            <i class="fab fa-npm" title="NPM"></i>
+            <i class="fab fa-github" title="GitHub"></i>
+            <i class="fab fa-vuejs" title="Vue.js"></i>
+            <i class="fab fa-figma" title="Figma"></i>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Frontend Skills -->
+          <div class="valorant-card p-6">
+            <h3 class="text-xl font-bold mb-4 uppercase valorant-red">
+              Frontend Development
+            </h3>
+            <div class="space-y-6">
+              <div>
+                <div class="flex justify-between mb-2">
+                  <span class="font-medium">React & Next.js</span>
+                  <span class="valorant-red">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="90%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between mb-2">
+                  <span class="font-medium">JavaScript</span>
+                  <span class="valorant-red">92%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="92%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between mb-2">
+                  <span class="font-medium">HTML5 & CSS3</span>
+                  <span class="valorant-red">88%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="88%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between mb-2">
+                  <span class="font-medium">Vue.js & Angular</span>
+                  <span class="valorant-red">80%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend Skills -->
+          <div class="valorant-card p-6">
+            <h3 class="text-xl font-bold mb-4 uppercase valorant-red">
+              Backend Development
+            </h3>
+            <div class="space-y-6">
+              <div>
+                <div class="flex justify-between mb-2">
+                  <span class="font-medium">Node.js & Express</span>
+                  <span class="valorant-red">85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="85%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between mb-2">
+                  <span class="font-medium">Python & Django</span>
+                  <span class="valorant-red">82%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="82%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between mb-2">
+                  <span class="font-medium">Database Design</span>
+                  <span class="valorant-red">87%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="87%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between mb-2">
+                  <span class="font-medium">API Development</span>
+                  <span class="valorant-red">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="90%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Data Analytics & DevOps Skills -->
+          <div class="valorant-card p-6">
+            <h3 class="text-xl font-bold mb-4 uppercase valorant-red">
+              Data Analytics & DevOps
+            </h3>
+            <div class="space-y-6">
+              <div>
+                <div class="flex justify-between mb-2">
+                  <span class="font-medium">Data Analysis</span>
+                  <span class="valorant-red">85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="85%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between mb-2">
+                  <span class="font-medium">Data Visualization</span>
+                  <span class="valorant-red">80%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="80%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between mb-2">
+                  <span class="font-medium">CI/CD & DevOps</span>
+                  <span class="valorant-red">78%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="78%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between mb-2">
+                  <span class="font-medium">Cloud & Containers</span>
+                  <span class="valorant-red">75%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="75%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Additional Tech Tags -->
+        <div class="mt-12 text-center">
+          <h3 class="text-xl font-bold mb-6 uppercase valorant-red">
+            Technologies & Tools
+          </h3>
+          <div class="flex flex-wrap justify-center gap-2">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">PostgreSQL</span>
+            <span class="tech-tag">MongoDB</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Pandas</span>
+            <span class="tech-tag">NumPy</span>
+            <span class="tech-tag">Matplotlib</span>
+            <span class="tech-tag">Seaborn</span>
+            <span class="tech-tag">Tableau</span>
+            <span class="tech-tag">Docker</span>
+            <span class="tech-tag">Kubernetes</span>
+            <span class="tech-tag">AWS</span>
+            <span class="tech-tag">Git</span>
+            <span class="tech-tag">Jenkins</span>
+            <span class="tech-tag">GitHub Actions</span>
+            <span class="tech-tag">Linux</span>
+            <span class="tech-tag">SQL</span>
+            <span class="tech-tag">Excel</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="py-20 valorant-section">
+      <div class="container mx-auto px-6 relative z-10">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-4 uppercase">
+          Certificates & Achievements
+        </h2>
+        <div class="w-24 h-1 bg-valorant-red mx-auto mb-12"></div>
+        <p class="text-center text-xl mb-12 max-w-3xl mx-auto opacity-80">
+          My journey of continuous learning and professional development through
+          certifications in various technologies and methodologies.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Certificate 1 - Full Stack Development -->
+          <div class="certificate-card">
+            <img
+              src="https://media.licdn.com/dms/image/v2/D4E2DAQFlrpWIC5o1Hw/profile-treasury-image-shrink_800_800/B4EZq_G9o8IQAc-/0/1764142865854?e=1765479600&v=beta&t=vU_hcEww29wXV8Zm_KuJFa8fejNOku7PDaYViEaB_r4"
+              alt="Full Stack Development Certificate"
+              class="certificate-image"
+            />
+            <div class="certificate-overlay">
+              <div class="certificate-badge">Full Stack</div>
+              <h3 class="certificate-title">Full Stack Web Development</h3>
+              <div class="certificate-issuer">Udemy</div>
+              <div class="certificate-links">
+                <a
+                  href="https://www.udemy.com/certificate/UC-366142ec-3203-420f-abf9-8be1eb6882c3/"
+                  class="certificate-link"
+                  onclick="openCertificateModal('certificate1')"
+                >
+                  <i class="fas fa-eye"></i>
+                  View Certificate
+                </a>
+                <a href="#" class="certificate-link verify">
+                  <i class="fas fa-external-link-alt"></i>
+                  Verify
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="certificate-card">
+            <img
+              src="https://media.licdn.com/dms/image/v2/D4E2DAQHCgrgBVZ-HaQ/profile-treasury-document-images_1280/B4EZa.5r2lHIAY-/1/1746959519416?e=1766016000&v=beta&t=v77fpX4kXKP3ben45mdpaBq12MskjoicpR0IP4uNu-k"
+              alt="Data Analytics Certificate"
+              class="certificate-image"
+            />
+            <div class="certificate-overlay">
+              <div class="certificate-badge">Python</div>
+              <h3 class="certificate-title">Python Essentials</h3>
+              <div class="certificate-issuer">Cisco</div>
+              <div class="certificate-links">
+                <a
+                  href="https://www.credly.com/badges/1b7426d8-69d0-4d19-aafd-6aa0225e9de9/linked_in_profile"
+                  class="certificate-link"
+                  onclick="openCertificateModal('certificate2')"
+                >
+                  <i class="fas fa-eye"></i>
+                  View Certificate
+                </a>
+                <a
+                  href="https://www.credly.com/badges/1b7426d8-69d0-4d19-aafd-6aa0225e9de9/linked_in_profile"
+                  class="certificate-link verify"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                  Verify
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="certificate-card">
+            <img
+              src="https://media.licdn.com/dms/image/v2/D4E2DAQHkRgFkAMQhfQ/profile-treasury-document-cover-images_480/B4EZcp5yvuHcA4-/0/1748754707175?e=1765479600&v=beta&t=60Es9bV-QE2dSs72p0JfLYNTibCGjWzaL57UQHssirU"
+              alt="AWS Certificate"
+              class="certificate-image"
+            />
+            <div class="certificate-overlay">
+              <div class="certificate-badge">JavaScript</div>
+              <h3 class="certificate-title">Programming with JavaScript</h3>
+              <div class="certificate-issuer">Coursera</div>
+              <div class="certificate-links">
+                <a
+                  href="https://www.coursera.org/account/accomplishments/verify/6QWWFANI5IC0"
+                  class="certificate-link"
+                  onclick="openCertificateModal('certificate3')"
+                >
+                  <i class="fas fa-eye"></i>
+                  View Certificate
+                </a>
+                <a
+                  href="https://www.coursera.org/account/accomplishments/verify/6QWWFANI5IC0"
+                  class="certificate-link verify"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                  Verify
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="certificate-card">
+            <img
+              src="https://media.licdn.com/dms/image/v2/D4E2DAQEmO_fEbRP6lA/profile-treasury-image-shrink_1280_1280/B4EZgCl62tGcAQ-/0/1752390153369?e=1765519200&v=beta&t=KF323O1USj6IeiOAwUrKoNwEKvaIY3TX4WO_spJG7UA"
+              alt="React Certificate"
+              class="certificate-image"
+            />
+            <div class="certificate-overlay">
+              <div class="certificate-badge">Hack2Skills</div>
+              <h3 class="certificate-title">Gen AI Exchange Program</h3>
+              <div class="certificate-issuer">Hack2Skills</div>
+              <div class="certificate-links">
+                <a
+                  href="https://certificate.hack2skill.com/user/GenAI5-28M/2025H2S04GENAI-A00770"
+                  class="certificate-link"
+                  onclick="openCertificateModal('certificate4')"
+                >
+                  <i class="fas fa-eye"></i>
+                  View Certificate
+                </a>
+                <a
+                  href="https://certificate.hack2skill.com/user/GenAI5-28M/2025H2S04GENAI-A00770"
+                  class="certificate-link verify"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                  Verify
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="certificate-card">
+            <img
+              src="https://d8it4huxumps7.cloudfront.net/lambda-pdfs/certificate-images/d6b63982-0cf1-4d11-8898-218aa9f56aa5.jpg"
+              alt="Python Certificate"
+              class="certificate-image"
+            />
+            <div class="certificate-overlay">
+              <div class="certificate-badge"></div>
+              <h3 class="certificate-title">Algo Quiz</h3>
+              <div class="certificate-issuer">unstop | Let's Code</div>
+              <div class="certificate-links">
+                <a
+                  href="https://unstop.com/certificate-preview/d6b63982-0cf1-4d11-8898-218aa9f56aa5"
+                  class="certificate-link"
+                  onclick="openCertificateModal('certificate5')"
+                >
+                  <i class="fas fa-eye"></i>
+                  View Certificate
+                </a>
+                <a
+                  href="https://unstop.com/certificate-preview/d6b63982-0cf1-4d11-8898-218aa9f56aa5"
+                  class="certificate-link verify"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                  Verify
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="certificate-card">
+            <img
+              src="https://media.licdn.com/dms/image/v2/D4E2DAQEMWBS--_D1TQ/profile-treasury-image-shrink_1280_1280/B4EZrnbpGVJ0AU-/0/1764819375130?e=1765519200&v=beta&t=WAKpkIKpdHjiB-Cwk3_YK9xuOiO3QwbLXEba6Yo57H0"
+              alt="DevOps Certificate"
+              class="certificate-image"
+            />
+            <div class="certificate-overlay">
+              <div class="certificate-badge">System Design</div>
+              <h3 class="certificate-title">Quora System Design</h3>
+              <div class="certificate-issuer">Scaler</div>
+              <div class="certificate-links">
+                <a
+                  href="https://moonshot.scaler.com/s/li/4hiOISDMgH"
+                  class="certificate-link"
+                  onclick="openCertificateModal('certificate6')"
+                >
+                  <i class="fas fa-eye"></i>
+                  View Certificate
+                </a>
+                <a
+                  href="https://moonshot.scaler.com/s/li/4hiOISDMgH"
+                  class="certificate-link verify"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                  Verify
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 valorant-section">
+      <div class="container mx-auto px-6 relative z-10">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-4 uppercase">
+          Featured Projects
+        </h2>
+        <div class="w-24 h-1 bg-valorant-red mx-auto mb-12"></div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Project 1 - MovieDB -->
+          <div class="project-card">
+            <img
+              src="./images/MovieDB.jpg"
+              alt="MovieDB Project"
+              class="project-image"
+            />
+            <div class="project-overlay">
+              <h3 class="project-title valorant-red">MovieDB 🍿🎬</h3>
+              <br />
+              <p class="project-description">
+                A Modern Movie discovery website built with React, Vite, and
+                Tailwind CSS. Browse Trending, Popular, Top-rated, and upcoming
+                movies with real-time search.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://movie-db-nine-omega.vercel.app/"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                  Live Demo
+                </a>
+                <a
+                  href="https://github.com/Fahad-1515/MovieDB"
+                  target="_blank"
+                  class="project-link github"
+                >
+                  <i class="fab fa-github"></i>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 - EmployeeManagment -->
+          <div class="project-card">
+            <img
+              src="./images/EAnalysis.png"
+              alt="EmployeeManagment"
+              class="project-image"
+            />
+            <div class="project-overlay">
+              <h3 class="project-title valorant-red">
+                Employee-Management-System
+              </h3>
+              <br />
+              <p class="project-description">
+                Real-Time Employee Management & Monitoring System build with
+                Springboot, java as backend, Frontend with Angular. MySQL
+                Database.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Fahad-1515/Employee-Management-System-EMS-"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                  Live Demo
+                </a>
+                <a
+                  href="https://github.com/Fahad-1515/Employee-Management-System-EMS-"
+                  target="_blank"
+                  class="project-link github"
+                >
+                  <i class="fab fa-github"></i>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 - Weatherapp Streamlit Python -->
+          <div class="project-card">
+            <img
+              src="https://play-lh.googleusercontent.com/cweCpoG0q7Z4qVBdozGoM1DFhp2U_kHmmbo2F1_qgF6BP-hCRai6uB9U1j28ZhaaYXU"
+              alt="Weather Project"
+              class="project-image"
+            />
+            <div class="project-overlay">
+              <h3 class="project-title valorant-red">WeatherApp</h3>
+              <br />
+              <p class="project-description">
+                Using Streamlit platform And openai,openweathermap api Show the
+                Weather Forecast for 5 Days for a specific Location and Weekly
+                Weatherforecast
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://weatherapp-4jxsupwkeattyvmbyndkz2.streamlit.app/"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                  Live Demo
+                </a>
+                <a
+                  href="https://github.com/Fahad-1515/Weatherapp"
+                  target="_blank"
+                  class="project-link github"
+                >
+                  <i class="fab fa-github"></i>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 - Uber Ride Analysis -->
+          <div class="project-card">
+            <img
+              src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+              alt="Uber Ride Analysis Project"
+              class="project-image"
+            />
+            <div class="project-overlay">
+              <h3 class="project-title valorant-red">Uber Ride Analysis</h3>
+              <br />
+              <p class="project-description">
+                Uber Ride Cancellation Analysis Dashboard with detailed insights
+                into cancellation patterns and reasons.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Fahad-1515/Uber-Datasets-Analytics"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                  View Analysis
+                </a>
+                <a
+                  href="https://github.com/Fahad-1515/Uber-Datasets-Analytics"
+                  target="_blank"
+                  class="project-link github"
+                >
+                  <i class="fab fa-github"></i>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 valorant-section">
+      <div class="container mx-auto px-6 relative z-10">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-4 uppercase">
+          Get In Touch
+        </h2>
+        <div class="w-24 h-1 bg-valorant-red mx-auto mb-12"></div>
+
+        <p class="text-center text-xl mb-12 max-w-3xl mx-auto opacity-80">
+          I'm always open to discussing new opportunities, creative projects, or
+          potential collaborations. Let's build something amazing together!
+        </p>
+
+        <div class="contact-grid">
+          <!-- Contact Information -->
+          <div class="contact-info-card">
+            <h3 class="text-2xl font-bold mb-6 valorant-red">Let's Connect</h3>
+            <p class="opacity-80 mb-8">
+              Feel free to reach out through any of these channels. I typically
+              respond within 24 hours.
+            </p>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Email</h4>
+                <p>
+                  <a href="mailto:fahad630321@gmail.com"
+                    >fahad630321@gmail.com</a
+                  >
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Phone</h4>
+                <p>+91 6303212567</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Location</h4>
+                <p>Hyderabad, Telangana, India</p>
+              </div>
+            </div>
+            <div class="status-indicator">
+              <div class="status-dot"></div>
+              <span>Available for new projects</span>
+            </div>
+
+            <div class="social-links">
+              <a
+                href="https://www.linkedin.com/in/fahad630/"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://github.com/Fahad-1515"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://x.com/fahad630321"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fab fa-x-twitter"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/fahad630321/"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-card">
+            <h3 class="text-2xl font-bold mb-6 valorant-red">Send a Message</h3>
+            <form class="space-y-6 contact-form">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  class="form-input"
+                  placeholder=" "
+                  required
+                />
+                <label for="name" class="form-label">Your Name</label>
+              </div>
+
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  class="form-input"
+                  placeholder=" "
+                  required
+                />
+                <label for="email" class="form-label">Your Email</label>
+              </div>
+
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="subject"
+                  class="form-input"
+                  placeholder=" "
+                  required
+                />
+                <label for="subject" class="form-label">Subject</label>
+              </div>
+
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  class="form-input"
+                  placeholder=" "
+                  required
+                ></textarea>
+                <label for="message" class="form-label">Your Message</label>
+              </div>
+
+              <button type="submit" class="submit-btn">
+                <i class="fas fa-paper-plane mr-2"></i>
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="container mx-auto px-6">
+        <div class="footer-content">
+          <!-- Brand Section -->
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <div class="footer-logo-icon">F</div>
+              <div class="footer-logo-text">
+                Fahad<span class="valorant-red">Developer</span>
+              </div>
+            </div>
+            <p class="footer-description">
+              Full Stack Developer & Data Analyst passionate about creating
+              immersive digital experiences and solving complex problems through
+              code and data.
+            </p>
+            <div class="footer-social">
+              <a
+                href="https://www.linkedin.com/in/fahad630/"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://github.com/Fahad-1515"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://x.com/fahad630321"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fab fa-x-twitter"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/fahad630321/"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div>
+            <h3 class="footer-heading">Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#certificates">Certificates</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Technologies -->
+          <div>
+            <h3 class="footer-heading">Technologies</h3>
+            <ul class="footer-links">
+              <li><a href="#">React & Next.js</a></li>
+              <li><a href="#">Node.js & Express</a></li>
+              <li><a href="#">Python & Django</a></li>
+              <li><a href="#">MongoDB & PostgreSQL</a></li>
+              <li><a href="#">Data Analytics</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <div class="copyright">
+            &copy; 2025 Fahad. All rights reserved. | Built with passion and
+            precision
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Certificate Modal -->
+    <div
+      id="certificateModal"
+      class="fixed inset-0 bg-black bg-opacity-80 z-50 hidden flex items-center justify-center p-4"
+    >
+      <div
+        class="bg-valorant-dark border border-valorant-red rounded-lg max-w-4xl w-full max-h-[90vh] overflow-auto"
+      >
+        <div
+          class="p-4 border-b border-valorant-red flex justify-between items-center"
+        >
+          <h3 class="text-xl font-bold valorant-red">Certificate Details</h3>
+          <button
+            onclick="closeCertificateModal()"
+            class="text-white hover:text-valorant-red text-2xl"
+          >
+            &times;
+          </button>
+        </div>
+        <div class="p-6">
+          <div id="certificateModalContent" class="text-center">
+            <!-- Certificate content will be loaded here -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // ============================================
+      // THEME SYSTEM
+      // ============================================
+      const themes = [
+        { name: "Jett", class: "theme-jett", color: "#00b4d8" },
+        { name: "Phoenix", class: "theme-phoenix", color: "#ff6b35" },
+        { name: "Reyna", class: "theme-reyna", color: "#8a2be2" },
+        { name: "Yoru", class: "theme-yoru", color: "#4361ee" },
+        { name: "Neon", class: "theme-neon", color: "#00f5d4" },
+        { name: "Iso", class: "theme-iso", color: "#2a9d8f" },
+        { name: "Sova", class: "theme-sova", color: "#386641" },
+        { name: "Breach", class: "theme-breach", color: "#ff7b00" },
+        { name: "Skye", class: "theme-skye", color: "#2d6a4f" },
+        { name: "KAY/O", class: "theme-kayo", color: "#4cc9f0" },
+        { name: "Fade", class: "theme-fade", color: "#7209b7" },
+        { name: "Gekko", class: "theme-gekko", color: "#70e000" },
+        { name: "Brimstone", class: "theme-brimstone", color: "#ff6b35" },
+        { name: "Viper", class: "theme-viper", color: "#38b000" },
+        { name: "Omen", class: "theme-omen", color: "#3a0ca3" },
+        { name: "Astra", class: "theme-astra", color: "#9d4edd" },
+        { name: "Harbor", class: "theme-harbor", color: "#0077b6" },
+        { name: "Sage", class: "theme-sage", color: "#00bbf9" },
+        { name: "Cypher", class: "theme-cypher", color: "#ffd166" },
+        { name: "Killjoy", class: "theme-killjoy", color: "#ffd60a" },
+        { name: "Chamber", class: "theme-chamber", color: "#ffd700" },
+        { name: "Deadlock", class: "theme-deadlock", color: "#ef233c" },
+      ];
+
+      let currentThemeIndex = 0;
+      let themeInterval;
+      let isThemeCycling = true;
+      const themeDuration = 15000; // 15 seconds per theme
+
+      // Initialize theme system
+      function initThemeSystem() {
+        // Start with Jett theme
+        applyTheme(0);
+
+        // Start automatic theme cycling
+        startThemeCycle();
+
+        // Setup theme toggle button
+        document
+          .getElementById("themeToggle")
+          .addEventListener("click", toggleThemeCycle);
+
+        // Show indicator when hovering toggle button
+        document
+          .getElementById("themeToggle")
+          .addEventListener("mouseenter", showThemeIndicator);
+
+        // Hide indicator when not hovering
+        document
+          .getElementById("themeToggle")
+          .addEventListener("mouseleave", () => {
+            setTimeout(() => {
+              hideThemeIndicator();
+            }, 2000);
+          });
+      }
+
+      function applyTheme(index) {
+        const theme = themes[index];
+        const body = document.body;
+        const root = document.documentElement;
+
+        // Update CSS variables
+        root.style.setProperty("--theme-primary", theme.color);
+        root.style.setProperty(
+          "--theme-background",
+          getBackgroundColor(theme.color)
+        );
+
+        // Remove all theme classes
+        themes.forEach((t) => {
+          body.classList.remove(t.class);
+        });
+
+        // Add current theme class
+        body.classList.add(theme.class);
+
+        // Update theme indicator
+        const themeName = document.getElementById("currentThemeName");
+        const themePreview = document.querySelector(".theme-preview");
+        const themeProgress = document.getElementById("themeProgress");
+
+        themeName.textContent = theme.name;
+        themePreview.style.background = theme.color;
+        themeProgress.style.background = theme.color;
+        themeProgress.style.animation = "none";
+
+        // Trigger reflow to restart animation
+        void themeProgress.offsetWidth;
+        themeProgress.style.animation = `themeTime ${themeDuration}ms linear`;
+      }
+
+      function getBackgroundColor(color) {
+        // Create a darker version of the theme color for background
+        const hex = color.replace("#", "");
+        const r = parseInt(hex.substr(0, 2), 16);
+        const g = parseInt(hex.substr(2, 2), 16);
+        const b = parseInt(hex.substr(4, 2), 16);
+
+        // Darken by 85%
+        const darkR = Math.floor(r * 0.15);
+        const darkG = Math.floor(g * 0.15);
+        const darkB = Math.floor(b * 0.15);
+
+        return `rgb(${darkR}, ${darkG}, ${darkB})`;
+      }
+
+      function nextTheme() {
+        currentThemeIndex = (currentThemeIndex + 1) % themes.length;
+        applyTheme(currentThemeIndex);
+      }
+
+      function startThemeCycle() {
+        if (themeInterval) clearInterval(themeInterval);
+        themeInterval = setInterval(nextTheme, themeDuration);
+        isThemeCycling = true;
+        updateToggleButton(true);
+      }
+
+      function stopThemeCycle() {
+        if (themeInterval) clearInterval(themeInterval);
+        isThemeCycling = false;
+        updateToggleButton(false);
+      }
+
+      function toggleThemeCycle() {
+        if (isThemeCycling) {
+          stopThemeCycle();
+        } else {
+          startThemeCycle();
+        }
+        showThemeIndicator();
+      }
+
+      function updateToggleButton(isActive) {
+        const toggleBtn = document.getElementById("themeToggle");
+        if (isActive) {
+          toggleBtn.innerHTML = '<i class="fas fa-pause"></i>';
+          toggleBtn.title = "Pause Theme Cycling";
+        } else {
+          toggleBtn.innerHTML = '<i class="fas fa-play"></i>';
+          toggleBtn.title = "Resume Theme Cycling";
+        }
+      }
+
+      function showThemeIndicator() {
+        const indicator = document.getElementById("themeIndicator");
+        indicator.classList.remove("hidden");
+
+        // Auto-hide after 3 seconds
+        clearTimeout(window.themeIndicatorTimeout);
+        window.themeIndicatorTimeout = setTimeout(() => {
+          indicator.classList.add("hidden");
+        }, 3000);
+      }
+
+      function hideThemeIndicator() {
+        const indicator = document.getElementById("themeIndicator");
+        indicator.classList.add("hidden");
+      }
+
+      // Mobile menu toggle
+      document
+        .getElementById("menu-btn")
+        .addEventListener("click", function () {
+          document.getElementById("mobile-menu").classList.toggle("hidden");
+        });
+
+      // Typewriter effect
+      const typewriter = new Typewriter("#typewriter", {
+        loop: true,
+        delay: 75,
+      });
+
+      typewriter
+        .typeString("Full Stack Developer")
+        .pauseFor(2000)
+        .deleteAll()
+        .typeString("Data Analyst")
+        .pauseFor(2000)
+        .deleteAll()
+        .typeString("Problem Solver")
+        .pauseFor(2000)
+        .start();
+
+      // Code Animation
+      const codeLines = [
+        {
+          text: '<span class="code-keyword">class</span> <span class="code-function">Portfolio</span> {',
+          delay: 500,
+        },
+        {
+          text: '  <span class="code-function">constructor</span>() {',
+          delay: 300,
+        },
+        {
+          text: '    <span class="code-keyword">this</span>.<span class="code-variable">name</span> = <span class="code-string">"Fahad"</span>;',
+          delay: 300,
+        },
+        {
+          text: '    <span class="code-keyword">this</span>.<span class="code-variable">role</span> = <span class="code-string">"Full Stack Developer"</span>;',
+          delay: 300,
+        },
+        {
+          text: '    <span class="code-keyword">this</span>.<span class="code-variable">location</span> = <span class="code-string">"Hyderabad, India"</span>;',
+          delay: 300,
+        },
+        { text: "  }", delay: 200 },
+        { text: "", delay: 200 },
+        {
+          text: '  <span class="code-function">getSkills</span>() {',
+          delay: 300,
+        },
+        { text: '    <span class="code-keyword">return</span> [', delay: 300 },
+        {
+          text: '      <span class="code-string">"React"</span>, <span class="code-string">"Node.js"</span>, <span class="code-string">"Python"</span>,',
+          delay: 300,
+        },
+        {
+          text: '      <span class="code-string">"JavaScript"</span>, <span class="code-string">"MongoDB"</span>, <span class="code-string">"PostgreSQL"</span>',
+          delay: 300,
+        },
+        { text: "    ];", delay: 200 },
+        { text: "  }", delay: 200 },
+        { text: "", delay: 200 },
+        {
+          text: '  <span class="code-function">buildProject</span>(<span class="code-variable">name</span>, <span class="code-variable">tech</span>) {',
+          delay: 300,
+        },
+        {
+          text: '    <span class="code-keyword">const</span> <span class="code-variable">project</span> = {',
+          delay: 300,
+        },
+        {
+          text: '      <span class="code-variable">name</span>: <span class="code-variable">name</span>,',
+          delay: 300,
+        },
+        {
+          text: '      <span class="code-variable">technologies</span>: <span class="code-variable">tech</span>,',
+          delay: 300,
+        },
+        {
+          text: '      <span class="code-variable">status</span>: <span class="code-string">"Completed"</span>',
+          delay: 300,
+        },
+        { text: "    };", delay: 200 },
+        {
+          text: '    <span class="code-keyword">return</span> <span class="code-variable">project</span>;',
+          delay: 300,
+        },
+        { text: "  }", delay: 200 },
+        { text: "", delay: 200 },
+        {
+          text: '  <span class="code-function">connect</span>() {',
+          delay: 300,
+        },
+        {
+          text: '    <span class="code-keyword">const</span> <span class="code-variable">email</span> = <span class="code-string">"fahad630321@gmail.com"</span>;',
+          delay: 300,
+        },
+        {
+          text: '    <span class="code-keyword">const</span> <span class="code-variable">linkedin</span> = <span class="code-string">"linkedin.com/in/fahad630"</span>;',
+          delay: 300,
+        },
+        {
+          text: '    <span class="code-keyword">return</span> { <span class="code-variable">email</span>, <span class="code-variable">linkedin</span> };',
+          delay: 300,
+        },
+        { text: "  }", delay: 200 },
+        { text: "}", delay: 200 },
+        { text: "", delay: 200 },
+        {
+          text: '<span class="code-comment"> </span>',
+          delay: 500,
+        },
+        {
+          text: '<span class="code-keyword">const</span> <span class="code-variable">myPortfolio</span> = <span class="code-keyword">new</span> <span class="code-function">Portfolio</span>();',
+          delay: 500,
+        },
+        {
+          text: '<span class="code-variable">console</span>.<span class="code-function">log</span>(<span class="code-variable">myPortfolio</span>.<span class="code-function">getSkills</span>());',
+          delay: 500,
+        },
+        {
+          text: '<span class="code-variable">console</span>.<span class="code-function">log</span>(<span class="code-string">"Let\'s build something amazing!"</span>);',
+          delay: 500,
+        },
+      ];
+
+      function animateCode() {
+        const codeContent = document.getElementById("codeContent");
+        let lineIndex = 0;
+
+        function addLine() {
+          if (lineIndex < codeLines.length) {
+            const line = document.createElement("div");
+            line.className = "code-line";
+
+            const lineNumber = document.createElement("div");
+            lineNumber.className = "line-number";
+            lineNumber.textContent = (lineIndex + 1).toString();
+
+            const lineContent = document.createElement("div");
+            lineContent.className = "line-content";
+            lineContent.innerHTML = codeLines[lineIndex].text;
+
+            // Add cursor to the last line
+            if (lineIndex === codeLines.length - 1) {
+              lineContent.innerHTML += '<span class="cursor"></span>';
+            }
+
+            line.appendChild(lineNumber);
+            line.appendChild(lineContent);
+            codeContent.appendChild(line);
+
+            // Scroll to bottom
+            codeContent.scrollTop = codeContent.scrollHeight;
+
+            lineIndex++;
+            setTimeout(addLine, codeLines[lineIndex - 1].delay);
+          } else {
+            // Restart animation after a delay
+            setTimeout(() => {
+              codeContent.innerHTML = "";
+              lineIndex = 0;
+              addLine();
+            }, 3000);
+          }
+        }
+
+        addLine();
+      }
+
+      // Animate skill bars on scroll
+      function animateSkillBars() {
+        const skillBars = document.querySelectorAll(".skill-progress");
+        skillBars.forEach((bar) => {
+          const width = bar.getAttribute("data-width");
+          bar.style.width = "0%";
+
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                setTimeout(() => {
+                  bar.style.width = width;
+                }, 300);
+                observer.unobserve(entry.target);
+              }
+            });
+          });
+
+          observer.observe(bar);
+        });
+      }
+
+      // Certificate Modal Functions
+      function openCertificateModal(certId) {
+        const modal = document.getElementById("certificateModal");
+        const content = document.getElementById("certificateModalContent");
+
+        // Set certificate content based on ID
+        let certificateContent = "";
+        switch (certId) {
+          case "certificate1":
+            certificateContent = `
+              <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
+                   alt="Full Stack Development Certificate" class="w-full max-w-2xl mx-auto rounded-lg mb-4">
+              <h3 class="text-2xl font-bold mb-2">Full Stack Web Development</h3>
+              <p class="text-lg mb-2">Issued by: Coding Ninjas</p>
+              <p class="text-lg mb-4">Issued: 2023</p>
+              <p class="text-lg mb-4">This certificate validates completion of a comprehensive Full Stack Web Development program covering frontend and backend technologies.</p>
+              <a href="#" class="valorant-btn inline-block">Verify Certificate</a>
+            `;
+            break;
+          case "certificate2":
+            certificateContent = `
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
+                   alt="Data Analytics Certificate" class="w-full max-w-2xl mx-auto rounded-lg mb-4">
+              <h3 class="text-2xl font-bold mb-2">Data Analytics & Visualization</h3>
+              <p class="text-lg mb-2">Issued by: Google Career Certificates</p>
+              <p class="text-lg mb-4">Issued: 2024</p>
+              <p class="text-lg mb-4">This certificate demonstrates proficiency in data analysis, visualization, and interpretation using industry-standard tools and techniques.</p>
+              <a href="#" class="valorant-btn inline-block">Verify Certificate</a>
+            `;
+            break;
+          default:
+            certificateContent = `<p>Certificate details not available.</p>`;
+        }
+
+        content.innerHTML = certificateContent;
+        modal.classList.remove("hidden");
+      }
+
+      function closeCertificateModal() {
+        const modal = document.getElementById("certificateModal");
+        modal.classList.add("hidden");
+      }
+
+      // Close modal when clicking outside
+      document
+        .getElementById("certificateModal")
+        .addEventListener("click", function (e) {
+          if (e.target === this) {
+            closeCertificateModal();
+          }
+        });
+
+      // Initialize animations when page loads
+      document.addEventListener("DOMContentLoaded", function () {
+        animateCode();
+        animateSkillBars();
+        initThemeSystem();
+
+        // Initialize ScrollReveal
+        ScrollReveal().reveal(".valorant-card", {
+          duration: 1000,
+          distance: "20px",
+          easing: "ease-in-out",
+          origin: "bottom",
+          interval: 200,
+        });
+
+        ScrollReveal().reveal(".project-card, .certificate-card", {
+          duration: 1000,
+          distance: "20px",
+          easing: "ease-in-out",
+          origin: "bottom",
+          interval: 200,
+        });
+
+        ScrollReveal().reveal("h1, h2, h3", {
+          duration: 1000,
+          distance: "20px",
+          easing: "ease-in-out",
+          origin: "top",
+        });
+      });
+
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+
+      // Form submission
+      document
+        .querySelector(".contact-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          alert("Thank you for your message! I will get back to you soon.");
+          this.reset();
+        });
+    </script>
   </body>
 </html>
-
