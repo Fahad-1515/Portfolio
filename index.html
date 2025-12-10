@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fahad | Full Stack Developer & Data Analyst</title>
+    <title>Fahad | Full Stack Developer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -992,7 +992,242 @@
         object-fit: cover;
         transition: all 0.4s ease;
       }
+      /* Tab Navigation */
+      .skill-tab {
+        background: rgba(15, 25, 35, 0.7);
+        border: 1px solid rgba(255, 70, 85, 0.3);
+        color: var(--valorant-light);
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 120px;
+      }
 
+      .skill-tab:hover {
+        border-color: var(--theme-primary);
+        background: rgba(255, 70, 85, 0.1);
+        transform: translateY(-2px);
+      }
+
+      .skill-tab.active {
+        background: var(--theme-primary);
+        border-color: var(--theme-primary);
+        color: white;
+        box-shadow: 0 4px 15px rgba(255, 70, 85, 0.3);
+      }
+
+      /* Skills Grid */
+      .skills-grid {
+        position: relative;
+        min-height: 400px;
+      }
+
+      .skill-category {
+        display: none;
+        animation: fadeIn 0.5s ease;
+      }
+
+      .skill-category.active {
+        display: block;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      /* Skill Category Cards */
+      .skill-category-card {
+        background: rgba(15, 25, 35, 0.9);
+        border: 1px solid rgba(255, 70, 85, 0.2);
+        border-radius: 12px;
+        padding: 1.5rem;
+        transition: all 0.3s ease;
+        height: 100%;
+      }
+
+      .skill-category-card:hover {
+        border-color: var(--theme-primary);
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      }
+
+      .skill-category-header {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 1rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid rgba(255, 70, 85, 0.3);
+      }
+
+      .skill-category-header i {
+        color: var(--theme-primary);
+        font-size: 1.2rem;
+      }
+
+      .skill-category-header h4 {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: var(--valorant-light);
+      }
+
+      .skill-icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.8rem;
+      }
+
+      /* Tech Icons */
+      .tech-icon {
+        position: relative;
+        transition: all 0.3s ease;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 10px;
+        padding: 10px;
+        border: 1px solid rgba(255, 70, 85, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+      }
+
+      .tech-icon:hover {
+        transform: translateY(-5px);
+        border-color: var(--theme-primary);
+        background: rgba(255, 70, 85, 0.1);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      }
+
+      .tech-icon img {
+        width: 28px;
+        height: 28px;
+        filter: brightness(0.9);
+        transition: filter 0.3s ease;
+      }
+
+      .tech-icon:hover img {
+        filter: brightness(1.2);
+        transform: scale(1.1);
+      }
+
+      .tech-icon::after {
+        content: attr(title);
+        position: absolute;
+        bottom: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: var(--theme-background);
+        color: var(--valorant-light);
+        padding: 4px 8px;
+        border-radius: 4px;
+        font-size: 11px;
+        white-space: nowrap;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        border: 1px solid var(--theme-primary);
+        z-index: 10;
+        pointer-events: none;
+      }
+
+      .tech-icon:hover::after {
+        opacity: 1;
+      }
+
+      /* Large Tech Icons for Individual Tabs */
+      .tech-icon-lg {
+        position: relative;
+        transition: all 0.3s ease;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 12px;
+        padding: 1.2rem;
+        border: 1px solid rgba(255, 70, 85, 0.1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        text-decoration: none;
+        color: var(--valorant-light);
+      }
+
+      .tech-icon-lg:hover {
+        transform: translateY(-8px);
+        border-color: var(--theme-primary);
+        background: rgba(255, 70, 85, 0.15);
+        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+      }
+
+      .tech-icon-lg img {
+        width: 40px;
+        height: 40px;
+        filter: brightness(0.9);
+        transition: all 0.3s ease;
+      }
+
+      .tech-icon-lg:hover img {
+        filter: brightness(1.3);
+        transform: scale(1.15);
+      }
+
+      .tech-icon-lg span {
+        font-size: 0.9rem;
+        font-weight: 500;
+        text-align: center;
+        transition: color 0.3s ease;
+      }
+
+      .tech-icon-lg:hover span {
+        color: var(--theme-primary);
+      }
+
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .skill-tab {
+          padding: 8px 12px;
+          font-size: 0.8rem;
+          min-width: 100px;
+        }
+
+        .skill-icons {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        .tech-icon-lg {
+          padding: 0.8rem;
+        }
+
+        .tech-icon-lg img {
+          width: 32px;
+          height: 32px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .skill-tab {
+          padding: 6px 10px;
+          font-size: 0.75rem;
+          min-width: 80px;
+        }
+
+        .skill-icons {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
       .certificate-overlay {
         position: absolute;
         top: 0;
@@ -1461,7 +1696,7 @@
       </div>
     </section>
 
-    <!-- Skills Section -->
+    <!-- Skills Section - Redesigned with Switchable Tabs -->
     <section id="skills" class="py-20 valorant-section">
       <div class="container mx-auto px-6 relative z-10">
         <h2 class="text-3xl md:text-4xl font-bold text-center mb-4 uppercase">
@@ -1469,213 +1704,1737 @@
         </h2>
         <div class="w-24 h-1 bg-valorant-red mx-auto mb-12"></div>
 
-        <!-- Tech Marquee -->
-        <div class="icon-marquee mb-12">
-          <div class="icon-marquee-content">
-            <i class="fab fa-js-square" title="JavaScript"></i>
-            <i class="fab fa-react" title="React.js"></i>
-            <i class="fab fa-node-js" title="Node.js"></i>
-            <i class="fab fa-python" title="Python"></i>
-            <i class="fas fa-chart-bar" title="Data Analytics"></i>
-            <i class="fas fa-database" title="Database"></i>
-            <i class="fab fa-aws" title="AWS"></i>
-            <i class="fab fa-docker" title="Docker"></i>
-            <i class="fab fa-git-alt" title="Git"></i>
-            <i class="fas fa-server" title="DevOps"></i>
-            <i class="fab fa-html5" title="HTML5"></i>
-            <i class="fab fa-css3-alt" title="CSS3"></i>
-            <i class="fab fa-npm" title="NPM"></i>
-            <i class="fab fa-github" title="GitHub"></i>
-            <i class="fab fa-vuejs" title="Vue.js"></i>
-            <i class="fab fa-figma" title="Figma"></i>
-            <!-- Repeat for seamless loop -->
-            <i class="fab fa-js-square" title="JavaScript"></i>
-            <i class="fab fa-react" title="React.js"></i>
-            <i class="fab fa-node-js" title="Node.js"></i>
-            <i class="fab fa-python" title="Python"></i>
-            <i class="fas fa-chart-bar" title="Data Analytics"></i>
-            <i class="fas fa-database" title="Database"></i>
-            <i class="fab fa-aws" title="AWS"></i>
-            <i class="fab fa-docker" title="Docker"></i>
-            <i class="fab fa-git-alt" title="Git"></i>
-            <i class="fas fa-server" title="DevOps"></i>
-            <i class="fab fa-html5" title="HTML5"></i>
-            <i class="fab fa-css3-alt" title="CSS3"></i>
-            <i class="fab fa-npm" title="NPM"></i>
-            <i class="fab fa-github" title="GitHub"></i>
-            <i class="fab fa-vuejs" title="Vue.js"></i>
-            <i class="fab fa-figma" title="Figma"></i>
+        <!-- Role Badges -->
+        <div class="flex flex-wrap justify-center gap-4 mb-12">
+          <span
+            class="px-4 py-2 bg-[#8a2be2] text-white rounded-full text-sm font-bold"
+            >Full Stack Developer</span
+          >
+          <span
+            class="px-4 py-2 bg-[#ff6b35] text-white rounded-full text-sm font-bold"
+            >AI Engineer</span
+          >
+          <span
+            class="px-4 py-2 bg-[#0A66C2] text-white rounded-full text-sm font-bold"
+            >Data Analyst</span
+          >
+          <span
+            class="px-4 py-2 bg-[#38b000] text-white rounded-full text-sm font-bold"
+            >DevOps Engineer</span
+          >
+        </div>
+
+        <p class="text-center text-xl mb-12 max-w-3xl mx-auto opacity-80">
+          I build intelligent, scalable, automated systems from Web apps to ML
+          pipelines to cloud-native DevOps workflows.
+        </p>
+
+        <!-- Tab Navigation -->
+        <div class="flex flex-wrap justify-center gap-2 mb-8">
+          <button class="skill-tab active" data-tab="all">
+            <i class="fas fa-layer-group mr-2"></i>All Skills
+          </button>
+          <button class="skill-tab" data-tab="languages">
+            <i class="fas fa-code mr-2"></i>Languages
+          </button>
+          <button class="skill-tab" data-tab="frontend">
+            <i class="fas fa-paint-brush mr-2"></i>Frontend
+          </button>
+          <button class="skill-tab" data-tab="backend">
+            <i class="fas fa-server mr-2"></i>Backend
+          </button>
+          <button class="skill-tab" data-tab="database">
+            <i class="fas fa-database mr-2"></i>Database
+          </button>
+          <button class="skill-tab" data-tab="ai-ml">
+            <i class="fas fa-brain mr-2"></i>AI/ML
+          </button>
+          <button class="skill-tab" data-tab="devops">
+            <i class="fas fa-cloud mr-2"></i>DevOps & Cloud
+          </button>
+          <button class="skill-tab" data-tab="tools">
+            <i class="fas fa-tools mr-2"></i>Tools
+          </button>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="skills-grid">
+          <!-- All Skills (Default) -->
+          <div class="skill-category active" id="all">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <!-- Languages -->
+              <div class="skill-category-card">
+                <div class="skill-category-header">
+                  <i class="fas fa-code"></i>
+                  <h4>Languages</h4>
+                </div>
+                <div class="skill-icons">
+                  <a
+                    href="https://skillicons.dev"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Python"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=python"
+                      alt="Python"
+                    />
+                  </a>
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                    target="_blank"
+                    class="tech-icon"
+                    title="JavaScript"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=js"
+                      alt="JavaScript"
+                    />
+                  </a>
+                  <a
+                    href="https://www.typescriptlang.org/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="TypeScript"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=ts"
+                      alt="TypeScript"
+                    />
+                  </a>
+                  <a
+                    href="https://www.java.com/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Java"
+                  >
+                    <img src="https://skillicons.dev/icons?i=java" alt="Java" />
+                  </a>
+                  <a
+                    href="https://isocpp.org/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="C++"
+                  >
+                    <img src="https://skillicons.dev/icons?i=cpp" alt="C++" />
+                  </a>
+                  <a
+                    href="https://www.gnu.org/software/bash/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Bash"
+                  >
+                    <img src="https://skillicons.dev/icons?i=bash" alt="Bash" />
+                  </a>
+                </div>
+              </div>
+
+              <!-- Frontend Skills -->
+              <div class="skill-category-card">
+                <div class="skill-category-header">
+                  <i class="fas fa-paint-brush"></i>
+                  <h4>Frontend</h4>
+                </div>
+                <div class="skill-icons">
+                  <a
+                    href="https://reactjs.org/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="React"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=react"
+                      alt="React"
+                    />
+                  </a>
+                  <a
+                    href="https://nextjs.org/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Next.js"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=nextjs"
+                      alt="Next.js"
+                    />
+                  </a>
+                  <a
+                    href="https://vuejs.org/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Vue.js"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=vue"
+                      alt="Vue.js"
+                    />
+                  </a>
+                  <a
+                    href="https://angular.io/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Angular"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=angular"
+                      alt="Angular"
+                    />
+                  </a>
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                    target="_blank"
+                    class="tech-icon"
+                    title="HTML5"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=html"
+                      alt="HTML5"
+                    />
+                  </a>
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                    target="_blank"
+                    class="tech-icon"
+                    title="CSS3"
+                  >
+                    <img src="https://skillicons.dev/icons?i=css" alt="CSS3" />
+                  </a>
+                </div>
+              </div>
+
+              <!-- Backend Skills -->
+              <div class="skill-category-card">
+                <div class="skill-category-header">
+                  <i class="fas fa-server"></i>
+                  <h4>Backend</h4>
+                </div>
+                <div class="skill-icons">
+                  <a
+                    href="https://nodejs.org/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Node.js"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=nodejs"
+                      alt="Node.js"
+                    />
+                  </a>
+                  <a
+                    href="https://expressjs.com/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Express"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=express"
+                      alt="Express"
+                    />
+                  </a>
+                  <a
+                    href="https://www.djangoproject.com/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Django"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=django"
+                      alt="Django"
+                    />
+                  </a>
+                  <a
+                    href="https://fastapi.tiangolo.com/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="FastAPI"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=fastapi"
+                      alt="FastAPI"
+                    />
+                  </a>
+                  <a
+                    href="https://spring.io/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Spring"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=spring"
+                      alt="Spring"
+                    />
+                  </a>
+                  <a
+                    href="https://graphql.org/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="GraphQL"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=graphql"
+                      alt="GraphQL"
+                    />
+                  </a>
+                </div>
+              </div>
+
+              <!-- Database Skills -->
+              <div class="skill-category-card">
+                <div class="skill-category-header">
+                  <i class="fas fa-database"></i>
+                  <h4>Database</h4>
+                </div>
+                <div class="skill-icons">
+                  <a
+                    href="https://www.mongodb.com/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="MongoDB"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=mongodb"
+                      alt="MongoDB"
+                    />
+                  </a>
+                  <a
+                    href="https://www.postgresql.org/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="PostgreSQL"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=postgres"
+                      alt="PostgreSQL"
+                    />
+                  </a>
+                  <a
+                    href="https://www.mysql.com/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="MySQL"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=mysql"
+                      alt="MySQL"
+                    />
+                  </a>
+                  <a
+                    href="https://redis.io/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Redis"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=redis"
+                      alt="Redis"
+                    />
+                  </a>
+                  <a
+                    href="https://firebase.google.com/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Firebase"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=firebase"
+                      alt="Firebase"
+                    />
+                  </a>
+                  <a
+                    href="https://www.sqlite.org/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="SQLite"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=sqlite"
+                      alt="SQLite"
+                    />
+                  </a>
+                </div>
+              </div>
+
+              <!-- AI/ML Skills -->
+              <div class="skill-category-card">
+                <div class="skill-category-header">
+                  <i class="fas fa-brain"></i>
+                  <h4>AI/ML</h4>
+                </div>
+                <div class="skill-icons">
+                  <a
+                    href="https://www.tensorflow.org/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="TensorFlow"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=tensorflow"
+                      alt="TensorFlow"
+                    />
+                  </a>
+                  <a
+                    href="https://pytorch.org/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="PyTorch"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=pytorch"
+                      alt="PyTorch"
+                    />
+                  </a>
+                  <a
+                    href="https://scikit-learn.org/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="scikit-learn"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=sklearn"
+                      alt="scikit-learn"
+                    />
+                  </a>
+                  <a
+                    href="https://opencv.org/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="OpenCV"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=opencv"
+                      alt="OpenCV"
+                    />
+                  </a>
+                  <a
+                    href="https://pandas.pydata.org/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Pandas"
+                  >
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+                      alt="Pandas"
+                    />
+                  </a>
+                  <a
+                    href="https://numpy.org/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="NumPy"
+                  >
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+                      alt="NumPy"
+                    />
+                  </a>
+                </div>
+              </div>
+
+              <!-- DevOps & Cloud -->
+              <div class="skill-category-card">
+                <div class="skill-category-header">
+                  <i class="fas fa-cloud"></i>
+                  <h4>DevOps & Cloud</h4>
+                </div>
+                <div class="skill-icons">
+                  <a
+                    href="https://www.docker.com/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Docker"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=docker"
+                      alt="Docker"
+                    />
+                  </a>
+                  <a
+                    href="https://kubernetes.io/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Kubernetes"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=kubernetes"
+                      alt="Kubernetes"
+                    />
+                  </a>
+                  <a
+                    href="https://aws.amazon.com/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="AWS"
+                  >
+                    <img src="https://skillicons.dev/icons?i=aws" alt="AWS" />
+                  </a>
+                  <a
+                    href="https://cloud.google.com/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="GCP"
+                  >
+                    <img src="https://skillicons.dev/icons?i=gcp" alt="GCP" />
+                  </a>
+                  <a
+                    href="https://github.com/features/actions"
+                    target="_blank"
+                    class="tech-icon"
+                    title="GitHub Actions"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=githubactions"
+                      alt="GitHub Actions"
+                    />
+                  </a>
+                  <a
+                    href="https://www.terraform.io/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Terraform"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=terraform"
+                      alt="Terraform"
+                    />
+                  </a>
+                </div>
+              </div>
+
+              <!-- Tools -->
+              <div class="skill-category-card">
+                <div class="skill-category-header">
+                  <i class="fas fa-tools"></i>
+                  <h4>Tools</h4>
+                </div>
+                <div class="skill-icons">
+                  <a
+                    href="https://git-scm.com/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Git"
+                  >
+                    <img src="https://skillicons.dev/icons?i=git" alt="Git" />
+                  </a>
+                  <a
+                    href="https://code.visualstudio.com/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="VSCode"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=vscode"
+                      alt="VSCode"
+                    />
+                  </a>
+                  <a
+                    href="https://www.figma.com/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Figma"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=figma"
+                      alt="Figma"
+                    />
+                  </a>
+                  <a
+                    href="https://www.postman.com/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Postman"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=postman"
+                      alt="Postman"
+                    />
+                  </a>
+                  <a
+                    href="https://www.atlassian.com/software/jira"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Jira"
+                  >
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"
+                      alt="Jira"
+                    />
+                  </a>
+                  <a
+                    href="https://www.nginx.com/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Nginx"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=nginx"
+                      alt="Nginx"
+                    />
+                  </a>
+                </div>
+              </div>
+
+              <!-- Frameworks & Libraries -->
+              <div class="skill-category-card">
+                <div class="skill-category-header">
+                  <i class="fas fa-cube"></i>
+                  <h4>Frameworks</h4>
+                </div>
+                <div class="skill-icons">
+                  <a
+                    href="https://tailwindcss.com/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Tailwind CSS"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=tailwind"
+                      alt="Tailwind CSS"
+                    />
+                  </a>
+                  <a
+                    href="https://getbootstrap.com/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Bootstrap"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=bootstrap"
+                      alt="Bootstrap"
+                    />
+                  </a>
+                  <a
+                    href="https://mui.com/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Material-UI"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=materialui"
+                      alt="Material-UI"
+                    />
+                  </a>
+                  <a
+                    href="https://redux.js.org/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Redux"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=redux"
+                      alt="Redux"
+                    />
+                  </a>
+                  <a
+                    href="https://socket.io/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Socket.io"
+                  >
+                    <img
+                      src="https://socket.io/images/logo.svg"
+                      alt="Socket.io"
+                    />
+                  </a>
+                  <a
+                    href="https://jestjs.io/"
+                    target="_blank"
+                    class="tech-icon"
+                    title="Jest"
+                  >
+                    <img src="https://skillicons.dev/icons?i=jest" alt="Jest" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Individual Tab Content -->
+          <!-- Languages Tab -->
+          <div class="skill-category" id="languages">
+            <div class="valorant-card p-8">
+              <h3
+                class="text-2xl font-bold mb-6 uppercase valorant-red flex items-center gap-2"
+              >
+                <i class="fas fa-code"></i>
+                Programming Languages
+              </h3>
+              <div
+                class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6"
+              >
+                <a
+                  href="https://www.python.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Python"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=python"
+                    alt="Python"
+                  />
+                  <span>Python</span>
+                </a>
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="JavaScript"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=js"
+                    alt="JavaScript"
+                  />
+                  <span>JavaScript</span>
+                </a>
+                <a
+                  href="https://www.typescriptlang.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="TypeScript"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=ts"
+                    alt="TypeScript"
+                  />
+                  <span>TypeScript</span>
+                </a>
+                <a
+                  href="https://www.java.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Java"
+                >
+                  <img src="https://skillicons.dev/icons?i=java" alt="Java" />
+                  <span>Java</span>
+                </a>
+                <a
+                  href="https://isocpp.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="C++"
+                >
+                  <img src="https://skillicons.dev/icons?i=cpp" alt="C++" />
+                  <span>C++</span>
+                </a>
+                <a
+                  href="https://learn.microsoft.com/en-us/dotnet/csharp/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="C#"
+                >
+                  <img src="https://skillicons.dev/icons?i=cs" alt="C#" />
+                  <span>C#</span>
+                </a>
+                <a
+                  href="https://go.dev/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Go"
+                >
+                  <img src="https://skillicons.dev/icons?i=go" alt="Go" />
+                  <span>Go</span>
+                </a>
+                <a
+                  href="https://www.ruby-lang.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Ruby"
+                >
+                  <img src="https://skillicons.dev/icons?i=ruby" alt="Ruby" />
+                  <span>Ruby</span>
+                </a>
+                <a
+                  href="https://www.php.net/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="PHP"
+                >
+                  <img src="https://skillicons.dev/icons?i=php" alt="PHP" />
+                  <span>PHP</span>
+                </a>
+                <a
+                  href="https://www.gnu.org/software/bash/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Bash"
+                >
+                  <img src="https://skillicons.dev/icons?i=bash" alt="Bash" />
+                  <span>Bash</span>
+                </a>
+                <a
+                  href="https://www.swift.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Swift"
+                >
+                  <img src="https://skillicons.dev/icons?i=swift" alt="Swift" />
+                  <span>Swift</span>
+                </a>
+                <a
+                  href="https://kotlinlang.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Kotlin"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=kotlin"
+                    alt="Kotlin"
+                  />
+                  <span>Kotlin</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Frontend Tab -->
+          <div class="skill-category" id="frontend">
+            <div class="valorant-card p-8">
+              <h3
+                class="text-2xl font-bold mb-6 uppercase valorant-red flex items-center gap-2"
+              >
+                <i class="fas fa-paint-brush"></i>
+                Frontend Development
+              </h3>
+              <div
+                class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6"
+              >
+                <a
+                  href="https://reactjs.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="React"
+                >
+                  <img src="https://skillicons.dev/icons?i=react" alt="React" />
+                  <span>React</span>
+                </a>
+                <a
+                  href="https://nextjs.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Next.js"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=nextjs"
+                    alt="Next.js"
+                  />
+                  <span>Next.js</span>
+                </a>
+                <a
+                  href="https://vuejs.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Vue.js"
+                >
+                  <img src="https://skillicons.dev/icons?i=vue" alt="Vue.js" />
+                  <span>Vue.js</span>
+                </a>
+                <a
+                  href="https://angular.io/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Angular"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=angular"
+                    alt="Angular"
+                  />
+                  <span>Angular</span>
+                </a>
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="HTML5"
+                >
+                  <img src="https://skillicons.dev/icons?i=html" alt="HTML5" />
+                  <span>HTML5</span>
+                </a>
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="CSS3"
+                >
+                  <img src="https://skillicons.dev/icons?i=css" alt="CSS3" />
+                  <span>CSS3</span>
+                </a>
+                <a
+                  href="https://tailwindcss.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Tailwind CSS"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=tailwind"
+                    alt="Tailwind CSS"
+                  />
+                  <span>Tailwind</span>
+                </a>
+                <a
+                  href="https://getbootstrap.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Bootstrap"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=bootstrap"
+                    alt="Bootstrap"
+                  />
+                  <span>Bootstrap</span>
+                </a>
+                <a
+                  href="https://mui.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Material-UI"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=materialui"
+                    alt="Material-UI"
+                  />
+                  <span>Material-UI</span>
+                </a>
+                <a
+                  href="https://redux.js.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Redux"
+                >
+                  <img src="https://skillicons.dev/icons?i=redux" alt="Redux" />
+                  <span>Redux</span>
+                </a>
+                <a
+                  href="https://svelte.dev/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Svelte"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=svelte"
+                    alt="Svelte"
+                  />
+                  <span>Svelte</span>
+                </a>
+                <a
+                  href="https://jquery.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="jQuery"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=jquery"
+                    alt="jQuery"
+                  />
+                  <span>jQuery</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend Tab -->
+          <div class="skill-category" id="backend">
+            <div class="valorant-card p-8">
+              <h3
+                class="text-2xl font-bold mb-6 uppercase valorant-red flex items-center gap-2"
+              >
+                <i class="fas fa-server"></i>
+                Backend Development
+              </h3>
+              <div
+                class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6"
+              >
+                <a
+                  href="https://nodejs.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Node.js"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=nodejs"
+                    alt="Node.js"
+                  />
+                  <span>Node.js</span>
+                </a>
+                <a
+                  href="https://expressjs.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Express"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=express"
+                    alt="Express"
+                  />
+                  <span>Express</span>
+                </a>
+                <a
+                  href="https://www.djangoproject.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Django"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=django"
+                    alt="Django"
+                  />
+                  <span>Django</span>
+                </a>
+                <a
+                  href="https://fastapi.tiangolo.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="FastAPI"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=fastapi"
+                    alt="FastAPI"
+                  />
+                  <span>FastAPI</span>
+                </a>
+                <a
+                  href="https://spring.io/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Spring"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=spring"
+                    alt="Spring"
+                  />
+                  <span>Spring</span>
+                </a>
+                <a
+                  href="https://graphql.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="GraphQL"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=graphql"
+                    alt="GraphQL"
+                  />
+                  <span>GraphQL</span>
+                </a>
+                <a
+                  href="https://nestjs.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="NestJS"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=nestjs"
+                    alt="NestJS"
+                  />
+                  <span>NestJS</span>
+                </a>
+                <a
+                  href="https://laravel.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Laravel"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=laravel"
+                    alt="Laravel"
+                  />
+                  <span>Laravel</span>
+                </a>
+                <a
+                  href="https://flask.palletsprojects.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Flask"
+                >
+                  <img src="https://skillicons.dev/icons?i=flask" alt="Flask" />
+                  <span>Flask</span>
+                </a>
+                <a
+                  href="https://socket.io/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Socket.io"
+                >
+                  <img
+                    src="https://socket.io/images/logo.svg"
+                    alt="Socket.io"
+                  />
+                  <span>Socket.io</span>
+                </a>
+                <a
+                  href="https://www.rabbitmq.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="RabbitMQ"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=rabbitmq"
+                    alt="RabbitMQ"
+                  />
+                  <span>RabbitMQ</span>
+                </a>
+                <a
+                  href="https://kafka.apache.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Apache Kafka"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=kafka"
+                    alt="Apache Kafka"
+                  />
+                  <span>Kafka</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Database Tab -->
+          <div class="skill-category" id="database">
+            <div class="valorant-card p-8">
+              <h3
+                class="text-2xl font-bold mb-6 uppercase valorant-red flex items-center gap-2"
+              >
+                <i class="fas fa-database"></i>
+                Databases
+              </h3>
+              <div
+                class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6"
+              >
+                <a
+                  href="https://www.mongodb.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="MongoDB"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=mongodb"
+                    alt="MongoDB"
+                  />
+                  <span>MongoDB</span>
+                </a>
+                <a
+                  href="https://www.postgresql.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="PostgreSQL"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=postgres"
+                    alt="PostgreSQL"
+                  />
+                  <span>PostgreSQL</span>
+                </a>
+                <a
+                  href="https://www.mysql.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="MySQL"
+                >
+                  <img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" />
+                  <span>MySQL</span>
+                </a>
+                <a
+                  href="https://redis.io/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Redis"
+                >
+                  <img src="https://skillicons.dev/icons?i=redis" alt="Redis" />
+                  <span>Redis</span>
+                </a>
+                <a
+                  href="https://firebase.google.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Firebase"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=firebase"
+                    alt="Firebase"
+                  />
+                  <span>Firebase</span>
+                </a>
+                <a
+                  href="https://www.sqlite.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="SQLite"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=sqlite"
+                    alt="SQLite"
+                  />
+                  <span>SQLite</span>
+                </a>
+                <a
+                  href="https://cassandra.apache.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Cassandra"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=cassandra"
+                    alt="Cassandra"
+                  />
+                  <span>Cassandra</span>
+                </a>
+                <a
+                  href="https://www.elastic.co/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Elasticsearch"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=elasticsearch"
+                    alt="Elasticsearch"
+                  />
+                  <span>Elasticsearch</span>
+                </a>
+                <a
+                  href="https://www.oracle.com/database/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Oracle"
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg"
+                    alt="Oracle"
+                    width="50"
+                    height="50"
+                  />
+
+                  <span>Oracle</span>
+                </a>
+                <a
+                  href="https://www.dynamodbguide.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="DynamoDB"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=dynamodb"
+                    alt="DynamoDB"
+                  />
+                  <span>DynamoDB</span>
+                </a>
+                <a
+                  href="https://neo4j.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Neo4j"
+                >
+                  <img src="https://skillicons.dev/icons?i=neo4j" alt="Neo4j" />
+                  <span>Neo4j</span>
+                </a>
+                <a
+                  href="https://www.sqlalchemy.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="SQLAlchemy"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=sqlalchemy"
+                    alt="SQLAlchemy"
+                  />
+                  <span>SQLAlchemy</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- AI/ML Tab -->
+          <div class="skill-category" id="ai-ml">
+            <div class="valorant-card p-8">
+              <h3
+                class="text-2xl font-bold mb-6 uppercase valorant-red flex items-center gap-2"
+              >
+                <i class="fas fa-brain"></i>
+                AI & Machine Learning
+              </h3>
+              <div
+                class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6"
+              >
+                <a
+                  href="https://www.tensorflow.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="TensorFlow"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=tensorflow"
+                    alt="TensorFlow"
+                  />
+                  <span>TensorFlow</span>
+                </a>
+                <a
+                  href="https://pytorch.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="PyTorch"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=pytorch"
+                    alt="PyTorch"
+                  />
+                  <span>PyTorch</span>
+                </a>
+                <a
+                  href="https://scikit-learn.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="scikit-learn"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=sklearn"
+                    alt="scikit-learn"
+                  />
+                  <span>scikit-learn</span>
+                </a>
+                <a
+                  href="https://opencv.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="OpenCV"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=opencv"
+                    alt="OpenCV"
+                  />
+                  <span>OpenCV</span>
+                </a>
+                <a
+                  href="https://pandas.pydata.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Pandas"
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+                    alt="Pandas"
+                  />
+                  <span>Pandas</span>
+                </a>
+                <a
+                  href="https://numpy.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="NumPy"
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+                    alt="NumPy"
+                  />
+                  <span>NumPy</span>
+                </a>
+                <a
+                  href="https://keras.io/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Keras"
+                >
+                  <img src="https://skillicons.dev/icons?i=keras" alt="Keras" />
+                  <span>Keras</span>
+                </a>
+                <a
+                  href="https://huggingface.co/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Hugging Face"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=huggingface"
+                    alt="Hugging Face"
+                  />
+                  <span>Hugging Face</span>
+                </a>
+                <a
+                  href="https://streamlit.io/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Streamlit"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=streamlit"
+                    alt="Streamlit"
+                  />
+                  <span>Streamlit</span>
+                </a>
+                <a
+                  href="https://plotly.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Plotly"
+                >
+                  <img
+                    src="https://hexmos.com/freedevtools/svg_icons/plotly/plotly-plain/plotly-plain.svg"
+                    alt="Plotly"
+                  />
+                  <span>Plotly</span>
+                </a>
+                <a
+                  href="https://matplotlib.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Matplotlib"
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg"
+                    alt="Matplotlib"
+                  />
+                  <span>Matplotlib</span>
+                </a>
+                <a
+                  href="https://seaborn.pydata.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Seaborn"
+                >
+                  <img
+                    src="https://worldvectorlogo.com/logo/seaborn-1"
+                    alt="Seaborn"
+                  />
+                  <span>Seaborn</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- DevOps & Cloud Tab -->
+          <div class="skill-category" id="devops">
+            <div class="valorant-card p-8">
+              <h3
+                class="text-2xl font-bold mb-6 uppercase valorant-red flex items-center gap-2"
+              >
+                <i class="fas fa-cloud"></i>
+                DevOps & Cloud
+              </h3>
+              <div
+                class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6"
+              >
+                <a
+                  href="https://www.docker.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Docker"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=docker"
+                    alt="Docker"
+                  />
+                  <span>Docker</span>
+                </a>
+                <a
+                  href="https://kubernetes.io/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Kubernetes"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=kubernetes"
+                    alt="Kubernetes"
+                  />
+                  <span>Kubernetes</span>
+                </a>
+                <a
+                  href="https://aws.amazon.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="AWS"
+                >
+                  <img src="https://skillicons.dev/icons?i=aws" alt="AWS" />
+                  <span>AWS</span>
+                </a>
+                <a
+                  href="https://cloud.google.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="GCP"
+                >
+                  <img src="https://skillicons.dev/icons?i=gcp" alt="GCP" />
+                  <span>GCP</span>
+                </a>
+                <a
+                  href="https://azure.microsoft.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Azure"
+                >
+                  <img src="https://skillicons.dev/icons?i=azure" alt="Azure" />
+                  <span>Azure</span>
+                </a>
+                <a
+                  href="https://www.terraform.io/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Terraform"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=terraform"
+                    alt="Terraform"
+                  />
+                  <span>Terraform</span>
+                </a>
+                <a
+                  href="https://www.ansible.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Ansible"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=ansible"
+                    alt="Ansible"
+                  />
+                  <span>Ansible</span>
+                </a>
+                <a
+                  href="https://www.jenkins.io/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Jenkins"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=jenkins"
+                    alt="Jenkins"
+                  />
+                  <span>Jenkins</span>
+                </a>
+                <a
+                  href="https://github.com/features/actions"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="GitHub Actions"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=githubactions"
+                    alt="GitHub Actions"
+                  />
+                  <span>GitHub Actions</span>
+                </a>
+                <a
+                  href="https://www.linux.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Linux"
+                >
+                  <img src="https://skillicons.dev/icons?i=linux" alt="Linux" />
+                  <span>Linux</span>
+                </a>
+                <a
+                  href="https://www.nginx.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Nginx"
+                >
+                  <img src="https://skillicons.dev/icons?i=nginx" alt="Nginx" />
+                  <span>Nginx</span>
+                </a>
+                <a
+                  href="https://prometheus.io/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Prometheus"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=prometheus"
+                    alt="Prometheus"
+                  />
+                  <span>Prometheus</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools Tab -->
+          <div class="skill-category" id="tools">
+            <div class="valorant-card p-8">
+              <h3
+                class="text-2xl font-bold mb-6 uppercase valorant-red flex items-center gap-2"
+              >
+                <i class="fas fa-tools"></i>
+                Tools & Platforms
+              </h3>
+              <div
+                class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6"
+              >
+                <a
+                  href="https://git-scm.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Git"
+                >
+                  <img src="https://skillicons.dev/icons?i=git" alt="Git" />
+                  <span>Git</span>
+                </a>
+                <a
+                  href="https://github.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="GitHub"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=github"
+                    alt="GitHub"
+                  />
+                  <span>GitHub</span>
+                </a>
+                <a
+                  href="https://code.visualstudio.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="VSCode"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=vscode"
+                    alt="VSCode"
+                  />
+                  <span>VSCode</span>
+                </a>
+                <a
+                  href="https://www.figma.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Figma"
+                >
+                  <img src="https://skillicons.dev/icons?i=figma" alt="Figma" />
+                  <span>Figma</span>
+                </a>
+                <a
+                  href="https://www.postman.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Postman"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=postman"
+                    alt="Postman"
+                  />
+                  <span>Postman</span>
+                </a>
+                <a
+                  href="https://www.atlassian.com/software/jira"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Jira"
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"
+                    alt="Jira"
+                  />
+                  <span>Jira</span>
+                </a>
+                <a
+                  href="https://www.notion.so/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Notion"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=notion"
+                    alt="Notion"
+                  />
+                  <span>Notion</span>
+                </a>
+                <a
+                  href="https://www.docker.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Docker"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=docker"
+                    alt="Docker"
+                  />
+                  <span>Docker</span>
+                </a>
+                <a
+                  href="https://www.npmjs.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="NPM"
+                >
+                  <img src="https://skillicons.dev/icons?i=npm" alt="NPM" />
+                  <span>NPM</span>
+                </a>
+                <a
+                  href="https://yarnpkg.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Yarn"
+                >
+                  <img src="https://skillicons.dev/icons?i=yarn" alt="Yarn" />
+                  <span>Yarn</span>
+                </a>
+                <a
+                  href="https://webpack.js.org/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Webpack"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=webpack"
+                    alt="Webpack"
+                  />
+                  <span>Webpack</span>
+                </a>
+                <a
+                  href="https://vercel.com/"
+                  target="_blank"
+                  class="tech-icon-lg"
+                  title="Vercel"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=vercel"
+                    alt="Vercel"
+                  />
+                  <span>Vercel</span>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <!-- Frontend Skills -->
-          <div class="valorant-card p-6">
-            <h3 class="text-xl font-bold mb-4 uppercase valorant-red">
-              Frontend Development
-            </h3>
-            <div class="space-y-6">
-              <div>
-                <div class="flex justify-between mb-2">
-                  <span class="font-medium">React & Next.js</span>
-                  <span class="valorant-red">90%</span>
-                </div>
-                <div class="skill-bar">
-                  <div class="skill-progress" data-width="90%"></div>
-                </div>
-              </div>
-              <div>
-                <div class="flex justify-between mb-2">
-                  <span class="font-medium">JavaScript</span>
-                  <span class="valorant-red">92%</span>
-                </div>
-                <div class="skill-bar">
-                  <div class="skill-progress" data-width="92%"></div>
-                </div>
-              </div>
-              <div>
-                <div class="flex justify-between mb-2">
-                  <span class="font-medium">HTML5 & CSS3</span>
-                  <span class="valorant-red">88%</span>
-                </div>
-                <div class="skill-bar">
-                  <div class="skill-progress" data-width="88%"></div>
-                </div>
-              </div>
-              <div>
-                <div class="flex justify-between mb-2">
-                  <span class="font-medium">Vue.js & Angular</span>
-                  <span class="valorant-red">80%</span>
-                </div>
-                <div class="skill-bar">
-                  <div class="skill-progress" data-width="80%"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Backend Skills -->
-          <div class="valorant-card p-6">
-            <h3 class="text-xl font-bold mb-4 uppercase valorant-red">
-              Backend Development
-            </h3>
-            <div class="space-y-6">
-              <div>
-                <div class="flex justify-between mb-2">
-                  <span class="font-medium">Node.js & Express</span>
-                  <span class="valorant-red">85%</span>
-                </div>
-                <div class="skill-bar">
-                  <div class="skill-progress" data-width="85%"></div>
-                </div>
-              </div>
-              <div>
-                <div class="flex justify-between mb-2">
-                  <span class="font-medium">Python & Django</span>
-                  <span class="valorant-red">82%</span>
-                </div>
-                <div class="skill-bar">
-                  <div class="skill-progress" data-width="82%"></div>
-                </div>
-              </div>
-              <div>
-                <div class="flex justify-between mb-2">
-                  <span class="font-medium">Database Design</span>
-                  <span class="valorant-red">87%</span>
-                </div>
-                <div class="skill-bar">
-                  <div class="skill-progress" data-width="87%"></div>
-                </div>
-              </div>
-              <div>
-                <div class="flex justify-between mb-2">
-                  <span class="font-medium">API Development</span>
-                  <span class="valorant-red">90%</span>
-                </div>
-                <div class="skill-bar">
-                  <div class="skill-progress" data-width="90%"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Data Analytics & DevOps Skills -->
-          <div class="valorant-card p-6">
-            <h3 class="text-xl font-bold mb-4 uppercase valorant-red">
-              Data Analytics & DevOps
-            </h3>
-            <div class="space-y-6">
-              <div>
-                <div class="flex justify-between mb-2">
-                  <span class="font-medium">Data Analysis</span>
-                  <span class="valorant-red">85%</span>
-                </div>
-                <div class="skill-bar">
-                  <div class="skill-progress" data-width="85%"></div>
-                </div>
-              </div>
-              <div>
-                <div class="flex justify-between mb-2">
-                  <span class="font-medium">Data Visualization</span>
-                  <span class="valorant-red">80%</span>
-                </div>
-                <div class="skill-bar">
-                  <div class="skill-progress" data-width="80%"></div>
-                </div>
-              </div>
-              <div>
-                <div class="flex justify-between mb-2">
-                  <span class="font-medium">CI/CD & DevOps</span>
-                  <span class="valorant-red">78%</span>
-                </div>
-                <div class="skill-bar">
-                  <div class="skill-progress" data-width="78%"></div>
-                </div>
-              </div>
-              <div>
-                <div class="flex justify-between mb-2">
-                  <span class="font-medium">Cloud & Containers</span>
-                  <span class="valorant-red">75%</span>
-                </div>
-                <div class="skill-bar">
-                  <div class="skill-progress" data-width="75%"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Additional Tech Tags -->
-        <div class="mt-12 text-center">
-          <h3 class="text-xl font-bold mb-6 uppercase valorant-red">
-            Technologies & Tools
+        <!-- Learning Section -->
+        <div class="mt-8 valorant-card p-8">
+          <h3
+            class="text-2xl font-bold mb-6 uppercase valorant-red text-center"
+          >
+            📈Currently Learning
           </h3>
-          <div class="flex flex-wrap justify-center gap-2">
-            <span class="tech-tag">React</span>
-            <span class="tech-tag">JavaScript</span>
-            <span class="tech-tag">Node.js</span>
-            <span class="tech-tag">PostgreSQL</span>
-            <span class="tech-tag">MongoDB</span>
-            <span class="tech-tag">Python</span>
-            <span class="tech-tag">Pandas</span>
-            <span class="tech-tag">NumPy</span>
-            <span class="tech-tag">Matplotlib</span>
-            <span class="tech-tag">Seaborn</span>
-            <span class="tech-tag">Tableau</span>
-            <span class="tech-tag">Docker</span>
-            <span class="tech-tag">Kubernetes</span>
-            <span class="tech-tag">AWS</span>
-            <span class="tech-tag">Git</span>
-            <span class="tech-tag">Jenkins</span>
-            <span class="tech-tag">GitHub Actions</span>
-            <span class="tech-tag">Linux</span>
-            <span class="tech-tag">SQL</span>
-            <span class="tech-tag">Excel</span>
+          <div class="flex flex-wrap justify-center gap-4">
+            <span
+              class="px-4 py-2 bg-valorant-red bg-opacity-20 border border-valorant-red rounded-full"
+              >MLOps</span
+            >
+            <span
+              class="px-4 py-2 bg-valorant-red bg-opacity-20 border border-valorant-red rounded-full"
+              >Generative AI</span
+            >
+            <span
+              class="px-4 py-2 bg-valorant-red bg-opacity-20 border border-valorant-red rounded-full"
+              >System Design</span
+            >
+            <span
+              class="px-4 py-2 bg-valorant-red bg-opacity-20 border border-valorant-red rounded-full"
+              >Cloud Architecture</span
+            >
+          </div>
+        </div>
+
+        <!-- Fun Fact -->
+        <div class="mt-8 text-center">
+          <div
+            class="inline-block bg-valorant-red bg-opacity-10 border border-valorant-red rounded-lg p-6"
+          >
+            <div class="text-valorant-red text-2xl mb-2">
+              <i class="fas fa-bolt"></i>
+            </div>
+            <p class="text-lg italic opacity-90">
+              "I love mixing AI + Automation to build smart self-improving
+              systems."
+            </p>
           </div>
         </div>
       </div>
     </section>
-
     <!-- Certificates Section -->
     <section id="certificates" class="py-20 valorant-section">
       <div class="container mx-auto px-6 relative z-10">
@@ -1703,7 +3462,6 @@
               <div class="certificate-links">
                 <a
                   href="https://www.udemy.com/certificate/UC-366142ec-3203-420f-abf9-8be1eb6882c3/"
-                  
                   class="certificate-link"
                   onclick="openCertificateModal('certificate1')"
                 >
@@ -2750,6 +4508,6 @@
           this.reset();
         });
     </script>
+    <script src="script.js"></script>
   </body>
 </html>
-
