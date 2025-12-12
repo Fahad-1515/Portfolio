@@ -30,21 +30,9 @@ Strong fundamentals, consistent learning, and a focus on writing clean, maintain
 
 ## 📌 Featured Projects
 
-### **1. AI Content Generator**  
-**Tech:** MERN + OpenAI API  
-- Generates content using LLMs  
-- Fully responsive UI + secure backend  
+### **1. MovieApp**  
+**Tech:** MERN
 
-### **2. Task Manager App**  
-**Tech:** React, Node, MongoDB  
-- Authentication, CRUD operations  
-- Clean and optimized frontend  
-
-### **3. ML Prediction Model**  
-**Tech:** Python, scikit-learn  
-- Simple regression model with data preprocessing  
-
-> *(Add GitHub links for best impact — recruiters almost always check them.)*
 
 ---
 
