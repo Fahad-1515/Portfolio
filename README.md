@@ -1,60 +1,83 @@
-# 💻 Software Development Engineer Portfolio  
-
-Hi 👋 I'm **Fahad**, a passionate **Software Development Engineer (SDE)** dedicated to building scalable, reliable, and user-focused software solutions.  
-
-Welcome to my **Portfolio Showcase**, where I highlight my top projects, technologies, and contributions 🚀  
+<h1 align="center">👋 Hi, I'm Fahad</h1>
+<h3 align="center">Full Stack Developer (MERN) | AI/ML Enthusiast</h3>
 
 ---
 
-## 🚀 About Me  
-
-- 👨‍💻 Passionate about solving real-world problems through clean and efficient code  
-- 💡 Always learning new technologies and improving my skills  
-- 🤝 Open to collaboration and innovative projects  
-- 🎯 Focused on full-stack development, DevOps, and cloud engineering  
+## 👨‍💻 Summary
+Motivated **Full Stack Developer (MERN)** with hands-on experience building responsive, scalable web applications and integrating **AI/ML features** into real-world projects.  
+Strong fundamentals, consistent learning, and a focus on writing clean, maintainable code.
 
 ---
 
-## 🛠️ Tech Stack  
+## 🛠️ Skills
 
-**Languages:**  
-`Java` • `Python` • `C` • `R` • `Bash Script`  
+### **Web Development**
+- **Frontend:** React.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
 
-**Web Development:**  
-`HTML5` • `CSS3` • `JavaScript` • `TypeScript` • `React.js` • `Vue.js` • `Vite.js` • `Node.js` • `Express.js` • `EJS`
+### **AI / ML**
+- Python (Pandas, NumPy, scikit-learn)  
+- Basic ML Models (Regression, Classification)  
+- OpenAI API (LLMs, text generation)  
 
-**Databases:**  
-`MySQL` • `MongoDB`
-
-**Frameworks & Tools:**  
-`Tailwind CSS` • `Bootstrap` • `Docker` • `Git & GitHub` • `VS Code` • `Linux/Unix` • `Netlify` • `Streamlit`
-
-**CS Fundamentals:**  
-`DBMS` • `OOP` • `Cloud Computing` • `Operating Systems` • `Networking` • `DSA` • `Problem Solving`
+### **Tools & Platforms**
+- Git, GitHub, Postman  
+- Vercel, Render, basic AWS  
+- VS Code, Linux basics  
 
 ---
 
-## 📂 Featured Projects  
+## 📌 Featured Projects
 
-| Project | Description | Tech Stack | Links |
-|----------|--------------|------------|--------|
-| **🌦️ AI-Powered Weather Forecasting** | Real-time weather app using OpenWeatherMap & OpenAI API with Streamlit | Python, Streamlit, OpenAI API | [Live Demo](https://weatherapp-4jxsupwkeattyvmbyndkz2.streamlit.app/) |
-| **📊 Project Management Dashboard** | Full CRUD dashboard with CI/CD pipeline on AWS | React.js, AWS, GitHub Actions | [Repo](https://github.com/Fahad-1515/Task-Management-Dashboard) |
-| **🎬 MovieDB** | Movie discovery app with real-time search & watchlist | React.js, Vite.js, Tailwind CSS | [Live Demo](https://movie-db-nine-omega.vercel.app/) |
-| **🧾 Express EJS Forms** | Authentication system using Express, MongoDB, and EJS | Express.js, Bootstrap, MongoDB | [Repo](https://github.com/Fahad-1515/express-ejs-forms) |
-| **🚖 Uber Datasets Analytics** | Data cleaning, EDA, and insight extraction on Uber rides | Python, SQL, Matplotlib, Seaborn | [Repo](https://github.com/Fahad-1515/Uber-Datasets-Analytics) |
-| **🧑‍💼 Employee-Management-System** | Login/Logout (JWT-based Authentication), Search and filter employees, Role-based access (Admin/User),Responsive UI with Angular, REST APIs built with Spring Boot + Hibernate, | Java, Spring Boot, Hibernate, MySQL, Angular, JWT , MySQL | [Repo](https://github.com/Fahad-1515/Employee-Management-System-EMS-) |
+### **1. AI Content Generator**  
+**Tech:** MERN + OpenAI API  
+- Generates content using LLMs  
+- Fully responsive UI + secure backend  
+
+### **2. Task Manager App**  
+**Tech:** React, Node, MongoDB  
+- Authentication, CRUD operations  
+- Clean and optimized frontend  
+
+### **3. ML Prediction Model**  
+**Tech:** Python, scikit-learn  
+- Simple regression model with data preprocessing  
+
+> *(Add GitHub links for best impact — recruiters almost always check them.)*
+
 ---
 
-## 🧩 Achievements  
+## 🔭 Currently Learning / Improving
+- Advanced React patterns  
+- API design & optimization  
+- More AI integrations (LLMs in MERN stack)  
 
-- 🎓 Active learner on **Coursera, Cisco NetAcad, and Google Cloud Skills Boost**  
-- 🧠 Participated in **Gen AI Exchange Program** by Google Cloud  
-- 🏆 Multiple verified certifications in **Web Development, Python, and Cloud Computing** 
 ---
 
-## 🤝 Let's Connect  
+## 🤝 Open to Opportunities
+Actively looking for **Full-Stack Developer**, **Frontend Developer**, or **AI-assisted Web Developer** roles.  
+Open to internships, full-time, and freelance collaborations.
 
-📧 **Email:** [fahad630321@gmail.com](mailto:fahad630321@gmail.com)  
-💼 **LinkedIn:** [linkedin.com/in/fahad630](https://www.linkedin.com/in/fahad630/)  
-💻 **GitHub:** [github.com/Fahad-1515](https://github.com/Fahad-1515)
+---
+
+## 📫 Contact
+<p align="center">
+  <a href="https://linkedin.com/in/fahad630">
+    <img src="https://skillicons.dev/icons?i=linkedin" height="40" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/Fahad-1515">
+    <img src="https://skillicons.dev/icons?i=github" height="40" />
+  </a>
+  &nbsp;
+  <a href="mailto:fahad630321@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" height="40" />
+  </a>
+  &nbsp;
+  <a href="https://leetcode.com/u/fahad-1515/">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/leetcode.svg" height="40" />
+  </a>
+</p>
+
+---
