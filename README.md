@@ -31,7 +31,8 @@ Strong fundamentals, consistent learning, and a focus on writing clean, maintain
 ## 📌 Featured Projects
 
 ### **1. MovieApp**  
-**Tech:** MERN
+**Tech:** **Vite**, **React**, **TailwindCSS**
+[https://movie-app-seven-ruddy-42.vercel.app/]
 
 
 ---
