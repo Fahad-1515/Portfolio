@@ -8,8 +8,8 @@ I build **intelligent, scalable, production-grade systems** — combining modern
 ---
 
 ## 🔥 What I Do
-- 🤖 **AI Engineering** – ML, NLP, Computer Vision, LLMs, Generative AI  
 - 🌐 **Full Stack Development** – Scalable web apps & APIs  
+- 🤖 **AI Engineering** – ML, NLP, Computer Vision, LLMs, Generative AI  
 - ⚙️ **MLOps & DevOps** – CI/CD, Docker, Kubernetes, automation  
 - ☁️ **Cloud Architecture** – AWS, GCP, Azure, IaC  
 - 📊 **Data-Driven Systems** – Pipelines, analytics, model deployment  
@@ -74,8 +74,8 @@ I build **intelligent, scalable, production-grade systems** — combining modern
 
 ## 🏷 Roles
 <p align="left">
-<img src="https://img.shields.io/badge/AI%20Engineer-blueviolet?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Full%20Stack%20Engineer-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI%20Engineer-blueviolet?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/DevOps%20Engineer-success?style=for-the-badge"/>
 </p>
 
