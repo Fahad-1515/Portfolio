@@ -57,14 +57,6 @@ I build **intelligent, scalable, production-grade systems** — combining modern
 
 ---
 
-## 📊 GitHub Stats
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Fahad-1515&show_icons=true&theme=tokyonight" height="160"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Fahad-1515&theme=tokyonight" height="160"/>
-</p>
-
----
-
 ## 🐍 Contribution Snake
 <p align="center">
 <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%"/>
