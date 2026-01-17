@@ -10,9 +10,6 @@ I’m a **final-year computer science student** passionate about building
 - 🌐 **Full Stack Development** – Web apps & REST APIs  
 - 🤖 **AI Engineering** – ML, NLP, Computer Vision, LLMs (hands-on projects)  
 - ⚙️ **MLOps & DevOps** – CI/CD, Docker, Kubernetes (learning & applying)  
-- ☁️ **Cloud Platforms** – AWS, GCP, Azure fundamentals  
-- 📊 **Data-Driven Systems** – Pipelines, analytics, model deployment  
-
 ---
 ### Projects
 ### 🎬 [Movie App](https://movie-app-seven-ruddy-42.vercel.app)   **Techstack:** **Vite** **React** **Javascript** **TailwindCSS**
