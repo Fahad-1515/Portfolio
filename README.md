@@ -6,7 +6,7 @@ I’m a **final-year computer science student** passionate about building
 
 ---
 
-## 🔥 What I Work On
+## What I Work On
 - 🌐 **Full Stack Development** – Web apps & REST APIs  
 - 🤖 **AI Engineering** – ML, NLP, Computer Vision, LLMs (hands-on projects)  
 - ⚙️ **MLOps & DevOps** – CI/CD, Docker, Kubernetes (learning & applying)  
@@ -24,7 +24,7 @@ I’m a **final-year computer science student** passionate about building
 
 - Data cleaning, exploratory data analysis (EDA), and trend analysis on Uber ride data
   
-### 🧑‍💼 [Employee Management System](https://employee-management-system-wheat-chi.vercel.app) **Tech Stack:** Java, Spring Boot, Hibernate, Angular, MySQL, JWT
+### 🧑‍💼 [Employee Management System](https://employee-management-system-7c5q.vercel.app) **Tech Stack:** Java, Spring Boot, Hibernate, Angular, MySQL, JWT
 
 - Real-Time Employee Management System with Dashboard, admin/user access, Leave Mangement, Profile Management. 
 
