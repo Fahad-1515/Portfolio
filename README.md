@@ -7,27 +7,34 @@ I’m a **final-year computer science student** passionate about building
 ---
 
 ## What I Work On
-- 🌐 **Full Stack Development** – Web apps & REST APIs  
-- 🤖 **AI Engineering** – ML, NLP, Computer Vision, LLMs (hands-on projects)  
-- ⚙️ **MLOps & DevOps** – CI/CD, Docker, Kubernetes (learning & applying)  
+-  **Full Stack Development** – Web apps & REST APIs  
+-  **AI Engineering** – ML, NLP, Computer Vision, LLMs (hands-on projects)  
+-  **MLOps & DevOps** – CI/CD, Docker, Kubernetes (learning & applying)  
 ---
 ### Projects
-### 🎬 [Movie App](https://movie-app-seven-ruddy-42.vercel.app)   **Techstack:** **Vite** **React** **Javascript** **TailwindCSS**
+### [Movie App](https://movie-app-seven-ruddy-42.vercel.app)   **Techstack:** **Vite** **React** **Javascript** **TailwindCSS**
 
 - Movie discovery web application with real-time search and clean UI 
 
-### 🌦️[Weatherapp](https://weatherapp-4jxsupwkeattyvmbyndkz2.streamlit.app)   **Techstack** **Streamlit** **Python** **OpenweathermapAPI**
+### [Weatherapp](https://weatherapp-4jxsupwkeattyvmbyndkz2.streamlit.app)   **Techstack** **Streamlit** **Python** **OpenweathermapAPI**
 
 - Real-time weather forecasting app using external APIs and AI-generated insights 
 
-### 🚖 [Uber Datasets Analytics](https://github.com/Fahad-1515/Uber-Datasets-Analytics)  **Tech Stack:** Python, SQL, Matplotlib, Seaborn
+### [Uber Datasets Analytics](https://github.com/Fahad-1515/Uber-Datasets-Analytics)  **Tech Stack:** Python, SQL, Matplotlib, Seaborn
 
 - Data cleaning, exploratory data analysis (EDA), and trend analysis on Uber ride data
   
-### 🧑‍💼 [Employee Management System](https://employee-management-system-7c5q.vercel.app) **Tech Stack:** Java, Spring Boot, Hibernate, Angular, MySQL, JWT
+### [Employee Management System](https://employee-management-system-7c5q.vercel.app) **Tech Stack:** Java, Spring Boot, Hibernate, Angular, MySQL, JWT
 
 - Real-Time Employee Management System with Dashboard, admin/user access, Leave Mangement, Profile Management. 
 
+### [Order Management System](https://github.com/Fahad-1515/order-management-system) **Tech Stack:** Java, Spring Boot, Hibernate, Angular, MySQL, JWT, Docker
+
+- A production-ready cloud-native backend system built using Spring Boot microservices, MongoDB Atlas, Docker, and JWT authentication, designed for free-tier cloud deployment on Render. 
+
+### [FNOL Agent - First Notice of Loss Processing System](https://github.com/Fahad-1515/fnol-agent) **Tech Stack:** python, pdfplumber, pandas, PyPDF2
+
+- The FNOL Agent is an intelligent document processing system designed to automate the handling of First Notice of Loss (FNOL) insurance claims. It extracts key information from unstructured claim documents, validates the data, and routes claims to appropriate workflows based on configurable business rules.
 
 ## 📫 Connect With Me
 <p align="left">
