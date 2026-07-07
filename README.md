@@ -1,56 +1,91 @@
 # 👋 Hi, I'm Fahad  
-### Full Stack Developer & AI Enthusiast
+### 🚀 Full Stack Engineer | AI Engineer | Cloud & MLOps
 
-I’m a **final-year computer science student** passionate about building  
-**scalable web applications**, **AI-powered systems**.
+I build **intelligent, scalable, production-grade systems** — combining modern web development with AI, automation, and cloud-native engineering.
+
+💡 Passionate about **AI-powered products**, **self-improving systems**, and **high-performance architectures**.
 
 ---
 
-## What I Work On
--  **Full Stack Development** – Web apps & REST APIs  
--  **AI Engineering** – ML, NLP, Computer Vision, LLMs (hands-on projects)  
--  **MLOps & DevOps** – CI/CD, Docker, Kubernetes (learning & applying)  
+## 🔥 What I Do
+- 🌐 **Full Stack Development** – Scalable web apps & APIs  
+- 🤖 **AI Engineering** – ML, NLP, Computer Vision, LLMs, Generative AI  
+- ⚙️ **MLOps & DevOps** – CI/CD, Docker, Kubernetes, automation  
+- ☁️ **Cloud Architecture** – AWS, GCP, Azure, IaC  
+- 📊 **Data-Driven Systems** – Pipelines, analytics, model deployment  
+
 ---
-### Projects
-### [Movie App](https://movie-app-seven-ruddy-42.vercel.app)   **Techstack:** **Vite** **React** **Javascript** **TailwindCSS**
 
-- Movie discovery web application with real-time search and clean UI 
+## 🛠 Tech Stack
 
-### [Weatherapp](https://weatherapp-4jxsupwkeattyvmbyndkz2.streamlit.app)   **Techstack** **Streamlit** **Python** **OpenweathermapAPI**
+### 💻 Languages
+<p align="left">
+<img src="https://skillicons.dev/icons?i=python,js,ts,java,cpp,go,rust,php,bash&theme=light" height="45"/>
+</p>
 
-- Real-time weather forecasting app using external APIs and AI-generated insights 
+### 🎨 Frontend
+<p align="left">
+<img src="https://skillicons.dev/icons?i=react,nextjs,vue,angular,svelte,tailwind,bootstrap,html,css&theme=light" height="45"/>
+</p>
 
-### [Uber Datasets Analytics](https://github.com/Fahad-1515/Uber-Datasets-Analytics)  **Tech Stack:** Python, SQL, Matplotlib, Seaborn
+### 🧩 Backend & APIs
+<p align="left">
+<img src="https://skillicons.dev/icons?i=nodejs,express,django,fastapi,nestjs,laravel,spring,graphql&theme=light" height="45"/>
+</p>
 
-- Data cleaning, exploratory data analysis (EDA), and trend analysis on Uber ride data
-  
-### [Employee Management System](https://employee-management-system-7c5q.vercel.app) **Tech Stack:** Java, Spring Boot, Hibernate, Angular, MySQL, JWT
+### 🗄 Databases
+<p align="left">
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,firebase,dynamodb&theme=light" height="45"/>
+</p>
 
-- Real-Time Employee Management System with Dashboard, admin/user access, Leave Mangement, Profile Management. 
+### 🤖 AI / ML
+<p align="left">
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv,keras,huggingface&theme=light" height="45"/>
+</p>
 
-### [Order Management System](https://github.com/Fahad-1515/order-management-system) **Tech Stack:** Java, Spring Boot, Hibernate, Angular, MySQL, JWT, Docker
+### ☁️ DevOps & Cloud
+<p align="left">
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,aws,gcp,azure,terraform,ansible,jenkins,linux&theme=light" height="45"/>
+</p>
 
-- A production-ready cloud-native backend system built using Spring Boot microservices, MongoDB Atlas, Docker, and JWT authentication, designed for free-tier cloud deployment on Render. 
+---
 
-### [FNOL Agent - First Notice of Loss Processing System](https://github.com/Fahad-1515/fnol-agent) **Tech Stack:** python, pdfplumber, pandas, PyPDF2
+## 🚀 Currently
+- 🔭 Building **AI-driven applications & automation platforms**
+- 🌱 Learning **MLOps, LLM systems, scalable architecture**
+- 🤝 Open to **AI, Full Stack & DevOps collaborations**
 
-- The FNOL Agent is an intelligent document processing system designed to automate the handling of First Notice of Loss (FNOL) insurance claims. It extracts key information from unstructured claim documents, validates the data, and routes claims to appropriate workflows based on configurable business rules.
+---
+
+## 🐍 Contribution Snake
+<p align="center">
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+</p>
+
+---
+
+## 🏷 Roles
+<p align="left">
+<img src="https://img.shields.io/badge/Full%20Stack%20Engineer-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI%20Engineer-blueviolet?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/DevOps%20Engineer-success?style=for-the-badge"/>
+</p>
+
+---
 
 ## 📫 Connect With Me
 <p align="left">
-  <a href="https://www.linkedin.com/in/fahad630">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://github.com/Fahad-1515">
-    <img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  <a href="https://www.hackerrank.com/profile/fahad630321">
-    <img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black"/>
-  </a>
-  <a href="https://leetcode.com/u/fahad-1515/">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
-  </a>
-  <a href="mailto:fahad630321@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
+<a href="https://www.linkedin.com/in/fahad630">
+<img src="https://skillicons.dev/icons?i=linkedin" height="45"/>
+</a>
+<a href="https://github.com/Fahad-1515">
+<img src="https://skillicons.dev/icons?i=github" height="45"/>
+</a>
+<a href="mailto:fahad630321@gmail.com">
+<img src="https://skillicons.dev/icons?i=gmail" height="45"/>
+</a>
 </p>
+
+---
+
+⚡ **Fun Fact:** I love combining **AI + Automation** to build systems that improve themselves.
